@@ -1,0 +1,80 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+	<modelVersion>4.0.0</modelVersion>
+	<artifactId>gztiananyi-controller</artifactId>
+	<name>gztiananyi-controller</name>
+	<description>控制器</description>
+	<packaging>war</packaging>
+
+	<parent>
+		<groupId>co.jufeng</groupId>
+		<artifactId>jufeng-framework</artifactId>
+		<version>1.0.0</version>
+		<relativePath>../pom.xml</relativePath>
+	</parent>
+
+	<dependencies>
+		<dependency>
+			<groupId>co.jufeng</groupId>
+			<artifactId>gztiananyi-model</artifactId>
+			<type>jar</type>
+		</dependency>
+		
+		<dependency>
+			<groupId>co.jufeng</groupId>
+			<artifactId>gztiananyi-view</artifactId>
+			<type>war</type>
+		</dependency>
+		
+		<dependency>
+			<groupId>co.jufeng</groupId>
+			<artifactId>gztiananyi-view-admin</artifactId>
+			<type>war</type>
+		</dependency>
+
+		<dependency>
+			<groupId>junit</groupId>
+			<artifactId>junit</artifactId>
+			<type>jar</type>
+		</dependency>
+		
+		<dependency>
+			<groupId>javax</groupId>
+			<artifactId>javaee-api</artifactId>
+			<type>jar</type>
+			<scope>provided</scope>
+		</dependency>
+	</dependencies>
+
+	<build>		   
+		<finalName>gztiananyi-controller</finalName> 
+		<plugins>
+            <plugin>  
+                <groupId>org.apache.maven.plugins</groupId>  
+                <artifactId>maven-war-plugin</artifactId>  
+                <configuration>  
+                    <packagingExcludes>WEB-INF/web.xml</packagingExcludes>    
+                    <overlays>  
+                        <overlay>  
+                            <groupId>co.jufeng</groupId>  
+                            <artifactId>gztiananyi-view</artifactId>  
+                        </overlay>  
+                        <overlay>  
+                            <groupId>co.jufeng</groupId>  
+                            <artifactId>gztiananyi-view-admin</artifactId>  
+                        </overlay>
+                    </overlays>  
+                </configuration>  
+            </plugin> 
+			<plugin>
+				<groupId>org.apache.maven.plugins</groupId>
+				<artifactId>maven-source-plugin</artifactId>
+			</plugin>
+
+			<plugin>
+				<groupId>org.apache.maven.plugins</groupId>
+				<artifactId>maven-javadoc-plugin</artifactId>
+			</plugin>
+		</plugins>
+	</build>
+</project>

@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<settings xmlns="http://maven.apache.org/SETTINGS/1.0.0"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://maven.apache.org/SETTINGS/1.0.0 http://maven.apache.org/xsd/settings-1.0.0.xsd">
+	<localRepository>F:/JuFeng/Java/maven/apache-maven-3.2.3/repo</localRepository>
+	<servers>
+
+		<server>
+			<id>nexus-releases</id>
+			<username>deployment</username>
+			<password>deployment</password>
+		</server>
+
+		<server>
+			<id>nexus-snapshots</id>
+			<username>deployment</username>
+			<password>deployment</password>
+		</server>
+
+	</servers>
+
+	<!-- 配置镜像 -->
+	<mirrors>
+		<mirror>
+			<id>central</id>
+			<name>internal nexus repository</name>
+			<url>http://59.41.60.154:8081/nexus/content/groups/public/</url>
+			<mirrorOf>*</mirrorOf>
+		</mirror>
+	</mirrors>
+
+	<!-- 配置中央仓库 -->
+	<profiles>
+		<profile>
+			<id>central-repos</id>
+			<repositories>
+				<repository>
+					<id>central</id>
+					<name>Central</name>
+					<!-- 配置镜像后这里面的url将失败 -->
+					<url>http://www.myhost.com/maven/jdk14</url>
+					<releases>
+						<enabled>true</enabled>
+					</releases>
+					<snapshots>
+						<enabled>true</enabled>
+					</snapshots>
+				</repository>
+			</repositories>
+		</profile>
+	</profiles>
+
+	<!-- 激活中央仓库 -->
+	<activeProfiles>
+		<activeProfile>central-repos</activeProfile>
+	</activeProfiles>
+
+
+
+
+
+
+
+
+
+
+
+
+</settings> 

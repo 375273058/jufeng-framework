@@ -1,0 +1,28 @@
+{
+  "ide": {
+    
+  },
+  "ecmaVersion": 5,
+  "libs": [
+    "ecma5",
+    "browser",
+    "jquery"
+  ],
+  "plugins": {
+    "node": {
+      
+    },
+    "angular": {
+      
+    },
+    "browser-extension": {
+      
+    },
+    "extjs5.0.0": {
+      
+    },
+    "bootstrap": {
+      
+    }
+  }
+}

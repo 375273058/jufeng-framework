@@ -1,0 +1,11 @@
+package co.jufeng.core.string;
+
+public class NullArgumentException extends IllegalArgumentException {
+
+    private static final long serialVersionUID = 1174360235354917591L;
+
+    public NullArgumentException(String argName) {
+        super((argName == null ? "Argument" : argName) + " must not be null.");
+    }
+
+}

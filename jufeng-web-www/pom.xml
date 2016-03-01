@@ -1,0 +1,111 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+	<modelVersion>4.0.0</modelVersion>
+	<artifactId>jufeng-web-www</artifactId>
+	<name>jufeng-web-www</name>
+	<packaging>war</packaging>
+
+	<parent>
+		<groupId>co.jufeng</groupId>
+		<artifactId>jufeng-framework</artifactId>
+		<version>1.0.0</version>
+		<relativePath>../pom.xml</relativePath>
+	</parent>
+
+	<dependencies>
+		<dependency>
+			<groupId>co.jufeng</groupId>
+			<artifactId>jufeng-core</artifactId>
+		</dependency>
+		
+<!-- 		<dependency> -->
+<!-- 			<groupId>co.jufeng</groupId> -->
+<!-- 			<artifactId>jufeng-i18n</artifactId> -->
+<!-- 			<type>jar</type> -->
+<!-- 			<exclusions> -->
+<!-- 				<exclusion> -->
+<!-- 					<groupId>org.springframework</groupId> -->
+<!-- 					<artifactId>spring-web</artifactId> -->
+<!-- 				</exclusion> -->
+<!-- 				<exclusion> -->
+<!-- 					<groupId>org.springframework</groupId> -->
+<!-- 					<artifactId>spring-webmvc</artifactId> -->
+<!-- 				</exclusion> -->
+<!-- 				<exclusion> -->
+<!-- 					<groupId>org.springframework</groupId> -->
+<!-- 					<artifactId>spring-context-support</artifactId> -->
+<!-- 				</exclusion> -->
+<!-- 			</exclusions> -->
+<!-- 		</dependency> -->
+		
+		<dependency>
+			<groupId>co.jufeng</groupId>
+			<artifactId>jufeng-web-view</artifactId>
+			<type>war</type>
+		</dependency>
+
+		<dependency>
+			<groupId>junit</groupId>
+			<artifactId>junit</artifactId>
+		</dependency>
+		
+		<dependency>
+			<groupId>org.apache.struts</groupId>
+			<artifactId>struts2-core</artifactId>
+		</dependency>
+		<dependency>
+			<groupId>org.apache.struts</groupId>
+			<artifactId>struts2-convention-plugin</artifactId>
+		</dependency>
+		<dependency>
+			<groupId>org.apache.struts</groupId>
+			<artifactId>struts2-config-browser-plugin</artifactId>
+		</dependency>
+		
+		
+		<dependency>
+			<groupId>org.apache.velocity</groupId>
+			<artifactId>velocity</artifactId>
+		</dependency>
+		<dependency>
+			<groupId>org.apache.velocity</groupId>
+			<artifactId>velocity-tools</artifactId>
+		</dependency>
+		
+		<dependency>
+			<groupId>javax</groupId>
+			<artifactId>javaee-api</artifactId>
+			<scope>provided</scope>
+		</dependency>
+
+
+	</dependencies>
+
+	<build>		   
+		<finalName>jufeng-web-www</finalName> 
+		<plugins>
+            <plugin>  
+                <groupId>org.apache.maven.plugins</groupId>  
+                <artifactId>maven-war-plugin</artifactId>  
+                <configuration>  
+                    <packagingExcludes>WEB-INF/web.xml</packagingExcludes>    
+                    <overlays>  
+                        <overlay>  
+                            <groupId>co.jufeng</groupId>  
+                            <artifactId>jufeng-web-view</artifactId>  
+                        </overlay>  
+                    </overlays>  
+                </configuration>  
+            </plugin> 
+			<plugin>
+				<groupId>org.apache.maven.plugins</groupId>
+				<artifactId>maven-source-plugin</artifactId>
+			</plugin>
+
+			<plugin>
+				<groupId>org.apache.maven.plugins</groupId>
+				<artifactId>maven-javadoc-plugin</artifactId>
+			</plugin>
+		</plugins>
+	</build>
+</project>

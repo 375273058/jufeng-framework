@@ -1,0 +1,819 @@
+2016-01-12 16:57:15.296 [main] DEBUG net.sf.ehcache.config.ConfigurationFactory - Configuring ehcache from ehcache.xml found in the classpath: file:/home/jufeng/Java/git/jufeng-java/jufeng-framework/mingyuan-model/target/classes/ehcache.xml
+2016-01-12 16:57:15.302 [main] DEBUG net.sf.ehcache.config.ConfigurationFactory - Configuring ehcache from URL: file:/home/jufeng/Java/git/jufeng-java/jufeng-framework/mingyuan-model/target/classes/ehcache.xml
+2016-01-12 16:57:15.307 [main] DEBUG net.sf.ehcache.config.ConfigurationFactory - Configuring ehcache from InputStream
+2016-01-12 16:57:15.452 [main] DEBUG net.sf.ehcache.config.BeanHandler - Ignoring ehcache attribute xmlns:xsi
+2016-01-12 16:57:15.454 [main] DEBUG net.sf.ehcache.config.BeanHandler - Ignoring ehcache attribute xsi:noNamespaceSchemaLocation
+2016-01-12 16:57:15.456 [main] DEBUG net.sf.ehcache.config.DiskStoreConfiguration - Disk Store Path: /tmp
+2016-01-12 16:57:15.674 [main] DEBUG net.sf.ehcache.util.PropertyUtil - propertiesString is null.
+2016-01-12 16:57:15.680 [main] DEBUG net.sf.ehcache.config.ConfigurationHelper - No CacheManagerEventListenerFactory class specified. Skipping...
+2016-01-12 16:57:15.761 [main] DEBUG net.sf.ehcache.Cache - No BootstrapCacheLoaderFactory class specified. Skipping...
+2016-01-12 16:57:15.762 [main] DEBUG net.sf.ehcache.Cache - CacheWriter factory not configured. Skipping...
+2016-01-12 16:57:15.815 [main] DEBUG net.sf.ehcache.config.ConfigurationHelper - No CacheExceptionHandlerFactory class specified. Skipping...
+2016-01-12 16:57:15.869 [main] DEBUG net.sf.ehcache.store.compound.factories.DiskOverflowStorageFactory - Deleting data file org.hibernate.cache.spi.UpdateTimestampsCache.data
+2016-01-12 16:57:15.927 [main] DEBUG net.sf.ehcache.Cache - Initialised cache: org.hibernate.cache.spi.UpdateTimestampsCache
+2016-01-12 16:57:15.928 [main] DEBUG net.sf.ehcache.config.ConfigurationHelper - CacheDecoratorFactory not configured for defaultCache. Skipping for 'org.hibernate.cache.spi.UpdateTimestampsCache'.
+2016-01-12 16:57:15.937 [main] DEBUG net.sf.ehcache.store.compound.factories.DiskOverflowStorageFactory - Deleting data file org.hibernate.cache.internal.StandardQueryCache.data
+2016-01-12 16:57:15.939 [main] DEBUG net.sf.ehcache.Cache - Initialised cache: org.hibernate.cache.internal.StandardQueryCache
+2016-01-12 16:57:15.940 [main] DEBUG net.sf.ehcache.config.ConfigurationHelper - CacheDecoratorFactory not configured for defaultCache. Skipping for 'org.hibernate.cache.internal.StandardQueryCache'.
+2016-01-12 16:57:16.822 [net.sf.ehcache.CacheManager@7d9e8ef7] DEBUG net.sf.ehcache.util.UpdateChecker - Checking for update...
+2016-01-12 16:57:17.635 [net.sf.ehcache.CacheManager@7d9e8ef7] INFO  net.sf.ehcache.util.UpdateChecker - New update(s) found: 2.4.7 [http://www.terracotta.org/confluence/display/release/Release+Notes+Ehcache+Core+2.4]. Please check http://ehcache.org for the latest version.
+2016-01-12 17:01:08.834 [main] DEBUG net.sf.ehcache.config.ConfigurationFactory - Configuring ehcache from ehcache.xml found in the classpath: file:/home/jufeng/Java/git/jufeng-java/jufeng-framework/mingyuan-model/target/classes/ehcache.xml
+2016-01-12 17:01:08.839 [main] DEBUG net.sf.ehcache.config.ConfigurationFactory - Configuring ehcache from URL: file:/home/jufeng/Java/git/jufeng-java/jufeng-framework/mingyuan-model/target/classes/ehcache.xml
+2016-01-12 17:01:08.842 [main] DEBUG net.sf.ehcache.config.ConfigurationFactory - Configuring ehcache from InputStream
+2016-01-12 17:01:08.903 [main] DEBUG net.sf.ehcache.config.BeanHandler - Ignoring ehcache attribute xmlns:xsi
+2016-01-12 17:01:08.904 [main] DEBUG net.sf.ehcache.config.BeanHandler - Ignoring ehcache attribute xsi:noNamespaceSchemaLocation
+2016-01-12 17:01:08.906 [main] DEBUG net.sf.ehcache.config.DiskStoreConfiguration - Disk Store Path: /tmp
+2016-01-12 17:01:08.997 [main] DEBUG net.sf.ehcache.util.PropertyUtil - propertiesString is null.
+2016-01-12 17:01:09.002 [main] DEBUG net.sf.ehcache.config.ConfigurationHelper - No CacheManagerEventListenerFactory class specified. Skipping...
+2016-01-12 17:01:09.062 [main] DEBUG net.sf.ehcache.Cache - No BootstrapCacheLoaderFactory class specified. Skipping...
+2016-01-12 17:01:09.063 [main] DEBUG net.sf.ehcache.Cache - CacheWriter factory not configured. Skipping...
+2016-01-12 17:01:09.066 [main] DEBUG net.sf.ehcache.config.ConfigurationHelper - No CacheExceptionHandlerFactory class specified. Skipping...
+2016-01-12 17:01:09.103 [main] DEBUG net.sf.ehcache.store.compound.factories.DiskOverflowStorageFactory - Deleting data file org.hibernate.cache.spi.UpdateTimestampsCache.data
+2016-01-12 17:01:09.145 [main] DEBUG net.sf.ehcache.Cache - Initialised cache: org.hibernate.cache.spi.UpdateTimestampsCache
+2016-01-12 17:01:09.146 [main] DEBUG net.sf.ehcache.config.ConfigurationHelper - CacheDecoratorFactory not configured for defaultCache. Skipping for 'org.hibernate.cache.spi.UpdateTimestampsCache'.
+2016-01-12 17:01:09.156 [main] DEBUG net.sf.ehcache.store.compound.factories.DiskOverflowStorageFactory - Deleting data file org.hibernate.cache.internal.StandardQueryCache.data
+2016-01-12 17:01:09.157 [main] DEBUG net.sf.ehcache.Cache - Initialised cache: org.hibernate.cache.internal.StandardQueryCache
+2016-01-12 17:01:09.158 [main] DEBUG net.sf.ehcache.config.ConfigurationHelper - CacheDecoratorFactory not configured for defaultCache. Skipping for 'org.hibernate.cache.internal.StandardQueryCache'.
+2016-01-12 17:01:10.072 [net.sf.ehcache.CacheManager@60410cd] DEBUG net.sf.ehcache.util.UpdateChecker - Checking for update...
+2016-01-12 17:02:01.653 [main] DEBUG net.sf.ehcache.config.ConfigurationFactory - Configuring ehcache from ehcache.xml found in the classpath: file:/home/jufeng/Java/git/jufeng-java/jufeng-framework/mingyuan-model/target/classes/ehcache.xml
+2016-01-12 17:02:01.657 [main] DEBUG net.sf.ehcache.config.ConfigurationFactory - Configuring ehcache from URL: file:/home/jufeng/Java/git/jufeng-java/jufeng-framework/mingyuan-model/target/classes/ehcache.xml
+2016-01-12 17:02:01.660 [main] DEBUG net.sf.ehcache.config.ConfigurationFactory - Configuring ehcache from InputStream
+2016-01-12 17:02:01.689 [main] DEBUG net.sf.ehcache.config.BeanHandler - Ignoring ehcache attribute xmlns:xsi
+2016-01-12 17:02:01.690 [main] DEBUG net.sf.ehcache.config.BeanHandler - Ignoring ehcache attribute xsi:noNamespaceSchemaLocation
+2016-01-12 17:02:01.691 [main] DEBUG net.sf.ehcache.config.DiskStoreConfiguration - Disk Store Path: /tmp
+2016-01-12 17:02:01.772 [main] DEBUG net.sf.ehcache.util.PropertyUtil - propertiesString is null.
+2016-01-12 17:02:01.779 [main] DEBUG net.sf.ehcache.config.ConfigurationHelper - No CacheManagerEventListenerFactory class specified. Skipping...
+2016-01-12 17:02:01.829 [main] DEBUG net.sf.ehcache.Cache - No BootstrapCacheLoaderFactory class specified. Skipping...
+2016-01-12 17:02:01.830 [main] DEBUG net.sf.ehcache.Cache - CacheWriter factory not configured. Skipping...
+2016-01-12 17:02:01.837 [main] DEBUG net.sf.ehcache.config.ConfigurationHelper - No CacheExceptionHandlerFactory class specified. Skipping...
+2016-01-12 17:02:01.871 [main] DEBUG net.sf.ehcache.store.compound.factories.DiskOverflowStorageFactory - Deleting data file org.hibernate.cache.spi.UpdateTimestampsCache.data
+2016-01-12 17:02:01.905 [main] DEBUG net.sf.ehcache.Cache - Initialised cache: org.hibernate.cache.spi.UpdateTimestampsCache
+2016-01-12 17:02:01.906 [main] DEBUG net.sf.ehcache.config.ConfigurationHelper - CacheDecoratorFactory not configured for defaultCache. Skipping for 'org.hibernate.cache.spi.UpdateTimestampsCache'.
+2016-01-12 17:02:01.933 [main] DEBUG net.sf.ehcache.store.compound.factories.DiskOverflowStorageFactory - Deleting data file org.hibernate.cache.internal.StandardQueryCache.data
+2016-01-12 17:02:01.935 [main] DEBUG net.sf.ehcache.Cache - Initialised cache: org.hibernate.cache.internal.StandardQueryCache
+2016-01-12 17:02:01.935 [main] DEBUG net.sf.ehcache.config.ConfigurationHelper - CacheDecoratorFactory not configured for defaultCache. Skipping for 'org.hibernate.cache.internal.StandardQueryCache'.
+2016-01-12 17:02:02.841 [net.sf.ehcache.CacheManager@18e8473e] DEBUG net.sf.ehcache.util.UpdateChecker - Checking for update...
+2016-01-12 17:02:03.392 [net.sf.ehcache.CacheManager@18e8473e] INFO  net.sf.ehcache.util.UpdateChecker - New update(s) found: 2.4.7 [http://www.terracotta.org/confluence/display/release/Release+Notes+Ehcache+Core+2.4]. Please check http://ehcache.org for the latest version.
+2016-01-12 17:03:14.485 [main] DEBUG net.sf.ehcache.config.ConfigurationFactory - Configuring ehcache from ehcache.xml found in the classpath: file:/home/jufeng/Java/git/jufeng-java/jufeng-framework/mingyuan-model/target/classes/ehcache.xml
+2016-01-12 17:03:14.488 [main] DEBUG net.sf.ehcache.config.ConfigurationFactory - Configuring ehcache from URL: file:/home/jufeng/Java/git/jufeng-java/jufeng-framework/mingyuan-model/target/classes/ehcache.xml
+2016-01-12 17:03:14.502 [main] DEBUG net.sf.ehcache.config.ConfigurationFactory - Configuring ehcache from InputStream
+2016-01-12 17:03:14.529 [main] DEBUG net.sf.ehcache.config.BeanHandler - Ignoring ehcache attribute xmlns:xsi
+2016-01-12 17:03:14.530 [main] DEBUG net.sf.ehcache.config.BeanHandler - Ignoring ehcache attribute xsi:noNamespaceSchemaLocation
+2016-01-12 17:03:14.531 [main] DEBUG net.sf.ehcache.config.DiskStoreConfiguration - Disk Store Path: /tmp
+2016-01-12 17:03:14.616 [main] DEBUG net.sf.ehcache.util.PropertyUtil - propertiesString is null.
+2016-01-12 17:03:14.622 [main] DEBUG net.sf.ehcache.config.ConfigurationHelper - No CacheManagerEventListenerFactory class specified. Skipping...
+2016-01-12 17:03:14.667 [main] DEBUG net.sf.ehcache.Cache - No BootstrapCacheLoaderFactory class specified. Skipping...
+2016-01-12 17:03:14.667 [main] DEBUG net.sf.ehcache.Cache - CacheWriter factory not configured. Skipping...
+2016-01-12 17:03:14.669 [main] DEBUG net.sf.ehcache.config.ConfigurationHelper - No CacheExceptionHandlerFactory class specified. Skipping...
+2016-01-12 17:03:14.693 [main] DEBUG net.sf.ehcache.store.compound.factories.DiskOverflowStorageFactory - Deleting data file org.hibernate.cache.spi.UpdateTimestampsCache.data
+2016-01-12 17:03:14.719 [main] DEBUG net.sf.ehcache.Cache - Initialised cache: org.hibernate.cache.spi.UpdateTimestampsCache
+2016-01-12 17:03:14.720 [main] DEBUG net.sf.ehcache.config.ConfigurationHelper - CacheDecoratorFactory not configured for defaultCache. Skipping for 'org.hibernate.cache.spi.UpdateTimestampsCache'.
+2016-01-12 17:03:14.727 [main] DEBUG net.sf.ehcache.store.compound.factories.DiskOverflowStorageFactory - Deleting data file org.hibernate.cache.internal.StandardQueryCache.data
+2016-01-12 17:03:14.729 [main] DEBUG net.sf.ehcache.Cache - Initialised cache: org.hibernate.cache.internal.StandardQueryCache
+2016-01-12 17:03:14.729 [main] DEBUG net.sf.ehcache.config.ConfigurationHelper - CacheDecoratorFactory not configured for defaultCache. Skipping for 'org.hibernate.cache.internal.StandardQueryCache'.
+2016-01-12 17:04:14.228 [main] DEBUG net.sf.ehcache.config.ConfigurationFactory - Configuring ehcache from ehcache.xml found in the classpath: file:/home/jufeng/Java/git/jufeng-java/jufeng-framework/mingyuan-model/target/classes/ehcache.xml
+2016-01-12 17:04:14.232 [main] DEBUG net.sf.ehcache.config.ConfigurationFactory - Configuring ehcache from URL: file:/home/jufeng/Java/git/jufeng-java/jufeng-framework/mingyuan-model/target/classes/ehcache.xml
+2016-01-12 17:04:14.234 [main] DEBUG net.sf.ehcache.config.ConfigurationFactory - Configuring ehcache from InputStream
+2016-01-12 17:04:14.257 [main] DEBUG net.sf.ehcache.config.BeanHandler - Ignoring ehcache attribute xmlns:xsi
+2016-01-12 17:04:14.258 [main] DEBUG net.sf.ehcache.config.BeanHandler - Ignoring ehcache attribute xsi:noNamespaceSchemaLocation
+2016-01-12 17:04:14.260 [main] DEBUG net.sf.ehcache.config.DiskStoreConfiguration - Disk Store Path: /tmp
+2016-01-12 17:04:14.317 [main] DEBUG net.sf.ehcache.util.PropertyUtil - propertiesString is null.
+2016-01-12 17:04:14.321 [main] DEBUG net.sf.ehcache.config.ConfigurationHelper - No CacheManagerEventListenerFactory class specified. Skipping...
+2016-01-12 17:04:14.356 [main] DEBUG net.sf.ehcache.Cache - No BootstrapCacheLoaderFactory class specified. Skipping...
+2016-01-12 17:04:14.357 [main] DEBUG net.sf.ehcache.Cache - CacheWriter factory not configured. Skipping...
+2016-01-12 17:04:14.359 [main] DEBUG net.sf.ehcache.config.ConfigurationHelper - No CacheExceptionHandlerFactory class specified. Skipping...
+2016-01-12 17:04:14.383 [main] DEBUG net.sf.ehcache.store.compound.factories.DiskOverflowStorageFactory - Deleting data file org.hibernate.cache.spi.UpdateTimestampsCache.data
+2016-01-12 17:04:14.414 [main] DEBUG net.sf.ehcache.Cache - Initialised cache: org.hibernate.cache.spi.UpdateTimestampsCache
+2016-01-12 17:04:14.414 [main] DEBUG net.sf.ehcache.config.ConfigurationHelper - CacheDecoratorFactory not configured for defaultCache. Skipping for 'org.hibernate.cache.spi.UpdateTimestampsCache'.
+2016-01-12 17:04:14.422 [main] DEBUG net.sf.ehcache.store.compound.factories.DiskOverflowStorageFactory - Deleting data file org.hibernate.cache.internal.StandardQueryCache.data
+2016-01-12 17:04:14.424 [main] DEBUG net.sf.ehcache.Cache - Initialised cache: org.hibernate.cache.internal.StandardQueryCache
+2016-01-12 17:04:14.424 [main] DEBUG net.sf.ehcache.config.ConfigurationHelper - CacheDecoratorFactory not configured for defaultCache. Skipping for 'org.hibernate.cache.internal.StandardQueryCache'.
+2016-01-12 17:04:42.241 [main] DEBUG net.sf.ehcache.config.ConfigurationFactory - Configuring ehcache from ehcache.xml found in the classpath: file:/home/jufeng/Java/git/jufeng-java/jufeng-framework/mingyuan-model/target/classes/ehcache.xml
+2016-01-12 17:04:42.245 [main] DEBUG net.sf.ehcache.config.ConfigurationFactory - Configuring ehcache from URL: file:/home/jufeng/Java/git/jufeng-java/jufeng-framework/mingyuan-model/target/classes/ehcache.xml
+2016-01-12 17:04:42.247 [main] DEBUG net.sf.ehcache.config.ConfigurationFactory - Configuring ehcache from InputStream
+2016-01-12 17:04:42.270 [main] DEBUG net.sf.ehcache.config.BeanHandler - Ignoring ehcache attribute xmlns:xsi
+2016-01-12 17:04:42.271 [main] DEBUG net.sf.ehcache.config.BeanHandler - Ignoring ehcache attribute xsi:noNamespaceSchemaLocation
+2016-01-12 17:04:42.272 [main] DEBUG net.sf.ehcache.config.DiskStoreConfiguration - Disk Store Path: /tmp
+2016-01-12 17:04:42.341 [main] DEBUG net.sf.ehcache.util.PropertyUtil - propertiesString is null.
+2016-01-12 17:04:42.346 [main] DEBUG net.sf.ehcache.config.ConfigurationHelper - No CacheManagerEventListenerFactory class specified. Skipping...
+2016-01-12 17:04:42.386 [main] DEBUG net.sf.ehcache.Cache - No BootstrapCacheLoaderFactory class specified. Skipping...
+2016-01-12 17:04:42.386 [main] DEBUG net.sf.ehcache.Cache - CacheWriter factory not configured. Skipping...
+2016-01-12 17:04:42.388 [main] DEBUG net.sf.ehcache.config.ConfigurationHelper - No CacheExceptionHandlerFactory class specified. Skipping...
+2016-01-12 17:04:42.412 [main] DEBUG net.sf.ehcache.store.compound.factories.DiskOverflowStorageFactory - Deleting data file org.hibernate.cache.spi.UpdateTimestampsCache.data
+2016-01-12 17:04:42.439 [main] DEBUG net.sf.ehcache.Cache - Initialised cache: org.hibernate.cache.spi.UpdateTimestampsCache
+2016-01-12 17:04:42.440 [main] DEBUG net.sf.ehcache.config.ConfigurationHelper - CacheDecoratorFactory not configured for defaultCache. Skipping for 'org.hibernate.cache.spi.UpdateTimestampsCache'.
+2016-01-12 17:04:42.448 [main] DEBUG net.sf.ehcache.store.compound.factories.DiskOverflowStorageFactory - Deleting data file org.hibernate.cache.internal.StandardQueryCache.data
+2016-01-12 17:04:42.450 [main] DEBUG net.sf.ehcache.Cache - Initialised cache: org.hibernate.cache.internal.StandardQueryCache
+2016-01-12 17:04:42.450 [main] DEBUG net.sf.ehcache.config.ConfigurationHelper - CacheDecoratorFactory not configured for defaultCache. Skipping for 'org.hibernate.cache.internal.StandardQueryCache'.
+2016-01-12 17:05:42.423 [main] DEBUG net.sf.ehcache.config.ConfigurationFactory - Configuring ehcache from ehcache.xml found in the classpath: file:/home/jufeng/Java/git/jufeng-java/jufeng-framework/mingyuan-model/target/classes/ehcache.xml
+2016-01-12 17:05:42.427 [main] DEBUG net.sf.ehcache.config.ConfigurationFactory - Configuring ehcache from URL: file:/home/jufeng/Java/git/jufeng-java/jufeng-framework/mingyuan-model/target/classes/ehcache.xml
+2016-01-12 17:05:42.430 [main] DEBUG net.sf.ehcache.config.ConfigurationFactory - Configuring ehcache from InputStream
+2016-01-12 17:05:42.454 [main] DEBUG net.sf.ehcache.config.BeanHandler - Ignoring ehcache attribute xmlns:xsi
+2016-01-12 17:05:42.455 [main] DEBUG net.sf.ehcache.config.BeanHandler - Ignoring ehcache attribute xsi:noNamespaceSchemaLocation
+2016-01-12 17:05:42.456 [main] DEBUG net.sf.ehcache.config.DiskStoreConfiguration - Disk Store Path: /tmp
+2016-01-12 17:05:42.510 [main] DEBUG net.sf.ehcache.util.PropertyUtil - propertiesString is null.
+2016-01-12 17:05:42.514 [main] DEBUG net.sf.ehcache.config.ConfigurationHelper - No CacheManagerEventListenerFactory class specified. Skipping...
+2016-01-12 17:05:42.549 [main] DEBUG net.sf.ehcache.Cache - No BootstrapCacheLoaderFactory class specified. Skipping...
+2016-01-12 17:05:42.549 [main] DEBUG net.sf.ehcache.Cache - CacheWriter factory not configured. Skipping...
+2016-01-12 17:05:42.551 [main] DEBUG net.sf.ehcache.config.ConfigurationHelper - No CacheExceptionHandlerFactory class specified. Skipping...
+2016-01-12 17:05:42.575 [main] DEBUG net.sf.ehcache.store.compound.factories.DiskOverflowStorageFactory - Deleting data file org.hibernate.cache.spi.UpdateTimestampsCache.data
+2016-01-12 17:05:42.602 [main] DEBUG net.sf.ehcache.Cache - Initialised cache: org.hibernate.cache.spi.UpdateTimestampsCache
+2016-01-12 17:05:42.603 [main] DEBUG net.sf.ehcache.config.ConfigurationHelper - CacheDecoratorFactory not configured for defaultCache. Skipping for 'org.hibernate.cache.spi.UpdateTimestampsCache'.
+2016-01-12 17:05:42.611 [main] DEBUG net.sf.ehcache.store.compound.factories.DiskOverflowStorageFactory - Deleting data file org.hibernate.cache.internal.StandardQueryCache.data
+2016-01-12 17:05:42.613 [main] DEBUG net.sf.ehcache.Cache - Initialised cache: org.hibernate.cache.internal.StandardQueryCache
+2016-01-12 17:05:42.613 [main] DEBUG net.sf.ehcache.config.ConfigurationHelper - CacheDecoratorFactory not configured for defaultCache. Skipping for 'org.hibernate.cache.internal.StandardQueryCache'.
+2016-01-12 17:05:43.554 [net.sf.ehcache.CacheManager@60410cd] DEBUG net.sf.ehcache.util.UpdateChecker - Checking for update...
+2016-01-12 17:05:44.266 [net.sf.ehcache.CacheManager@60410cd] INFO  net.sf.ehcache.util.UpdateChecker - New update(s) found: 2.4.7 [http://www.terracotta.org/confluence/display/release/Release+Notes+Ehcache+Core+2.4]. Please check http://ehcache.org for the latest version.
+2016-01-12 17:07:22.453 [main] DEBUG net.sf.ehcache.config.ConfigurationFactory - Configuring ehcache from ehcache.xml found in the classpath: file:/home/jufeng/Java/git/jufeng-java/jufeng-framework/mingyuan-model/target/classes/ehcache.xml
+2016-01-12 17:07:22.457 [main] DEBUG net.sf.ehcache.config.ConfigurationFactory - Configuring ehcache from URL: file:/home/jufeng/Java/git/jufeng-java/jufeng-framework/mingyuan-model/target/classes/ehcache.xml
+2016-01-12 17:07:22.459 [main] DEBUG net.sf.ehcache.config.ConfigurationFactory - Configuring ehcache from InputStream
+2016-01-12 17:07:22.485 [main] DEBUG net.sf.ehcache.config.BeanHandler - Ignoring ehcache attribute xmlns:xsi
+2016-01-12 17:07:22.486 [main] DEBUG net.sf.ehcache.config.BeanHandler - Ignoring ehcache attribute xsi:noNamespaceSchemaLocation
+2016-01-12 17:07:22.488 [main] DEBUG net.sf.ehcache.config.DiskStoreConfiguration - Disk Store Path: /tmp
+2016-01-12 17:07:22.552 [main] DEBUG net.sf.ehcache.util.PropertyUtil - propertiesString is null.
+2016-01-12 17:07:22.558 [main] DEBUG net.sf.ehcache.config.ConfigurationHelper - No CacheManagerEventListenerFactory class specified. Skipping...
+2016-01-12 17:07:22.602 [main] DEBUG net.sf.ehcache.Cache - No BootstrapCacheLoaderFactory class specified. Skipping...
+2016-01-12 17:07:22.603 [main] DEBUG net.sf.ehcache.Cache - CacheWriter factory not configured. Skipping...
+2016-01-12 17:07:22.605 [main] DEBUG net.sf.ehcache.config.ConfigurationHelper - No CacheExceptionHandlerFactory class specified. Skipping...
+2016-01-12 17:07:22.638 [main] DEBUG net.sf.ehcache.store.compound.factories.DiskOverflowStorageFactory - Deleting data file org.hibernate.cache.spi.UpdateTimestampsCache.data
+2016-01-12 17:07:22.669 [main] DEBUG net.sf.ehcache.Cache - Initialised cache: org.hibernate.cache.spi.UpdateTimestampsCache
+2016-01-12 17:07:22.670 [main] DEBUG net.sf.ehcache.config.ConfigurationHelper - CacheDecoratorFactory not configured for defaultCache. Skipping for 'org.hibernate.cache.spi.UpdateTimestampsCache'.
+2016-01-12 17:07:22.679 [main] DEBUG net.sf.ehcache.store.compound.factories.DiskOverflowStorageFactory - Deleting data file org.hibernate.cache.internal.StandardQueryCache.data
+2016-01-12 17:07:22.681 [main] DEBUG net.sf.ehcache.Cache - Initialised cache: org.hibernate.cache.internal.StandardQueryCache
+2016-01-12 17:07:22.682 [main] DEBUG net.sf.ehcache.config.ConfigurationHelper - CacheDecoratorFactory not configured for defaultCache. Skipping for 'org.hibernate.cache.internal.StandardQueryCache'.
+2016-01-13 14:26:31.202 [main] DEBUG net.sf.ehcache.config.ConfigurationFactory - Configuring ehcache from ehcache.xml found in the classpath: file:/home/jufeng/Java/git/jufeng-java/jufeng-framework/mingyuan-model/target/classes/ehcache.xml
+2016-01-13 14:26:31.231 [main] DEBUG net.sf.ehcache.config.ConfigurationFactory - Configuring ehcache from URL: file:/home/jufeng/Java/git/jufeng-java/jufeng-framework/mingyuan-model/target/classes/ehcache.xml
+2016-01-13 14:26:31.234 [main] DEBUG net.sf.ehcache.config.ConfigurationFactory - Configuring ehcache from InputStream
+2016-01-13 14:26:31.299 [main] DEBUG net.sf.ehcache.config.BeanHandler - Ignoring ehcache attribute xmlns:xsi
+2016-01-13 14:26:31.299 [main] DEBUG net.sf.ehcache.config.BeanHandler - Ignoring ehcache attribute xsi:noNamespaceSchemaLocation
+2016-01-13 14:26:31.301 [main] DEBUG net.sf.ehcache.config.DiskStoreConfiguration - Disk Store Path: /tmp
+2016-01-13 14:26:31.396 [main] DEBUG net.sf.ehcache.util.PropertyUtil - propertiesString is null.
+2016-01-13 14:26:31.401 [main] DEBUG net.sf.ehcache.config.ConfigurationHelper - No CacheManagerEventListenerFactory class specified. Skipping...
+2016-01-13 14:26:31.467 [main] DEBUG net.sf.ehcache.Cache - No BootstrapCacheLoaderFactory class specified. Skipping...
+2016-01-13 14:26:31.467 [main] DEBUG net.sf.ehcache.Cache - CacheWriter factory not configured. Skipping...
+2016-01-13 14:26:31.470 [main] DEBUG net.sf.ehcache.config.ConfigurationHelper - No CacheExceptionHandlerFactory class specified. Skipping...
+2016-01-13 14:26:31.499 [main] DEBUG net.sf.ehcache.store.compound.factories.DiskOverflowStorageFactory - Deleting data file org.hibernate.cache.spi.UpdateTimestampsCache.data
+2016-01-13 14:26:31.565 [main] DEBUG net.sf.ehcache.Cache - Initialised cache: org.hibernate.cache.spi.UpdateTimestampsCache
+2016-01-13 14:26:31.565 [main] DEBUG net.sf.ehcache.config.ConfigurationHelper - CacheDecoratorFactory not configured for defaultCache. Skipping for 'org.hibernate.cache.spi.UpdateTimestampsCache'.
+2016-01-13 14:26:31.588 [main] DEBUG net.sf.ehcache.store.compound.factories.DiskOverflowStorageFactory - Deleting data file org.hibernate.cache.internal.StandardQueryCache.data
+2016-01-13 14:26:31.590 [main] DEBUG net.sf.ehcache.Cache - Initialised cache: org.hibernate.cache.internal.StandardQueryCache
+2016-01-13 14:26:31.591 [main] DEBUG net.sf.ehcache.config.ConfigurationHelper - CacheDecoratorFactory not configured for defaultCache. Skipping for 'org.hibernate.cache.internal.StandardQueryCache'.
+2016-01-13 14:26:32.475 [net.sf.ehcache.CacheManager@74a6f9c1] DEBUG net.sf.ehcache.util.UpdateChecker - Checking for update...
+2016-01-13 14:26:33.157 [net.sf.ehcache.CacheManager@74a6f9c1] INFO  net.sf.ehcache.util.UpdateChecker - New update(s) found: 2.4.7 [http://www.terracotta.org/confluence/display/release/Release+Notes+Ehcache+Core+2.4]. Please check http://ehcache.org for the latest version.
+2016-01-13 14:27:48.132 [main] DEBUG net.sf.ehcache.config.ConfigurationFactory - Configuring ehcache from ehcache.xml found in the classpath: file:/home/jufeng/Java/git/jufeng-java/jufeng-framework/mingyuan-model/target/classes/ehcache.xml
+2016-01-13 14:27:48.136 [main] DEBUG net.sf.ehcache.config.ConfigurationFactory - Configuring ehcache from URL: file:/home/jufeng/Java/git/jufeng-java/jufeng-framework/mingyuan-model/target/classes/ehcache.xml
+2016-01-13 14:27:48.138 [main] DEBUG net.sf.ehcache.config.ConfigurationFactory - Configuring ehcache from InputStream
+2016-01-13 14:27:48.163 [main] DEBUG net.sf.ehcache.config.BeanHandler - Ignoring ehcache attribute xmlns:xsi
+2016-01-13 14:27:48.164 [main] DEBUG net.sf.ehcache.config.BeanHandler - Ignoring ehcache attribute xsi:noNamespaceSchemaLocation
+2016-01-13 14:27:48.165 [main] DEBUG net.sf.ehcache.config.DiskStoreConfiguration - Disk Store Path: /tmp
+2016-01-13 14:27:48.242 [main] DEBUG net.sf.ehcache.util.PropertyUtil - propertiesString is null.
+2016-01-13 14:27:48.248 [main] DEBUG net.sf.ehcache.config.ConfigurationHelper - No CacheManagerEventListenerFactory class specified. Skipping...
+2016-01-13 14:27:48.289 [main] DEBUG net.sf.ehcache.Cache - No BootstrapCacheLoaderFactory class specified. Skipping...
+2016-01-13 14:27:48.290 [main] DEBUG net.sf.ehcache.Cache - CacheWriter factory not configured. Skipping...
+2016-01-13 14:27:48.292 [main] DEBUG net.sf.ehcache.config.ConfigurationHelper - No CacheExceptionHandlerFactory class specified. Skipping...
+2016-01-13 14:27:48.316 [main] DEBUG net.sf.ehcache.store.compound.factories.DiskOverflowStorageFactory - Deleting data file org.hibernate.cache.spi.UpdateTimestampsCache.data
+2016-01-13 14:27:48.343 [main] DEBUG net.sf.ehcache.Cache - Initialised cache: org.hibernate.cache.spi.UpdateTimestampsCache
+2016-01-13 14:27:48.343 [main] DEBUG net.sf.ehcache.config.ConfigurationHelper - CacheDecoratorFactory not configured for defaultCache. Skipping for 'org.hibernate.cache.spi.UpdateTimestampsCache'.
+2016-01-13 14:27:48.351 [main] DEBUG net.sf.ehcache.store.compound.factories.DiskOverflowStorageFactory - Deleting data file org.hibernate.cache.internal.StandardQueryCache.data
+2016-01-13 14:27:48.353 [main] DEBUG net.sf.ehcache.Cache - Initialised cache: org.hibernate.cache.internal.StandardQueryCache
+2016-01-13 14:27:48.353 [main] DEBUG net.sf.ehcache.config.ConfigurationHelper - CacheDecoratorFactory not configured for defaultCache. Skipping for 'org.hibernate.cache.internal.StandardQueryCache'.
+2016-01-13 14:27:49.309 [net.sf.ehcache.CacheManager@74a6f9c1] DEBUG net.sf.ehcache.util.UpdateChecker - Checking for update...
+2016-01-13 14:28:39.712 [main] DEBUG net.sf.ehcache.config.ConfigurationFactory - Configuring ehcache from ehcache.xml found in the classpath: file:/home/jufeng/Java/git/jufeng-java/jufeng-framework/mingyuan-model/target/classes/ehcache.xml
+2016-01-13 14:28:39.716 [main] DEBUG net.sf.ehcache.config.ConfigurationFactory - Configuring ehcache from URL: file:/home/jufeng/Java/git/jufeng-java/jufeng-framework/mingyuan-model/target/classes/ehcache.xml
+2016-01-13 14:28:39.720 [main] DEBUG net.sf.ehcache.config.ConfigurationFactory - Configuring ehcache from InputStream
+2016-01-13 14:28:39.747 [main] DEBUG net.sf.ehcache.config.BeanHandler - Ignoring ehcache attribute xmlns:xsi
+2016-01-13 14:28:39.748 [main] DEBUG net.sf.ehcache.config.BeanHandler - Ignoring ehcache attribute xsi:noNamespaceSchemaLocation
+2016-01-13 14:28:39.750 [main] DEBUG net.sf.ehcache.config.DiskStoreConfiguration - Disk Store Path: /tmp
+2016-01-13 14:28:39.827 [main] DEBUG net.sf.ehcache.util.PropertyUtil - propertiesString is null.
+2016-01-13 14:28:39.833 [main] DEBUG net.sf.ehcache.config.ConfigurationHelper - No CacheManagerEventListenerFactory class specified. Skipping...
+2016-01-13 14:28:39.885 [main] DEBUG net.sf.ehcache.Cache - No BootstrapCacheLoaderFactory class specified. Skipping...
+2016-01-13 14:28:39.885 [main] DEBUG net.sf.ehcache.Cache - CacheWriter factory not configured. Skipping...
+2016-01-13 14:28:39.888 [main] DEBUG net.sf.ehcache.config.ConfigurationHelper - No CacheExceptionHandlerFactory class specified. Skipping...
+2016-01-13 14:28:39.916 [main] DEBUG net.sf.ehcache.store.compound.factories.DiskOverflowStorageFactory - Deleting data file org.hibernate.cache.spi.UpdateTimestampsCache.data
+2016-01-13 14:28:39.945 [main] DEBUG net.sf.ehcache.Cache - Initialised cache: org.hibernate.cache.spi.UpdateTimestampsCache
+2016-01-13 14:28:39.946 [main] DEBUG net.sf.ehcache.config.ConfigurationHelper - CacheDecoratorFactory not configured for defaultCache. Skipping for 'org.hibernate.cache.spi.UpdateTimestampsCache'.
+2016-01-13 14:28:39.955 [main] DEBUG net.sf.ehcache.store.compound.factories.DiskOverflowStorageFactory - Deleting data file org.hibernate.cache.internal.StandardQueryCache.data
+2016-01-13 14:28:39.981 [main] DEBUG net.sf.ehcache.Cache - Initialised cache: org.hibernate.cache.internal.StandardQueryCache
+2016-01-13 14:28:39.981 [main] DEBUG net.sf.ehcache.config.ConfigurationHelper - CacheDecoratorFactory not configured for defaultCache. Skipping for 'org.hibernate.cache.internal.StandardQueryCache'.
+2016-01-13 14:28:40.892 [net.sf.ehcache.CacheManager@74a6f9c1] DEBUG net.sf.ehcache.util.UpdateChecker - Checking for update...
+2016-01-13 14:30:04.573 [main] DEBUG net.sf.ehcache.config.ConfigurationFactory - Configuring ehcache from ehcache.xml found in the classpath: file:/home/jufeng/Java/git/jufeng-java/jufeng-framework/mingyuan-model/target/classes/ehcache.xml
+2016-01-13 14:30:04.577 [main] DEBUG net.sf.ehcache.config.ConfigurationFactory - Configuring ehcache from URL: file:/home/jufeng/Java/git/jufeng-java/jufeng-framework/mingyuan-model/target/classes/ehcache.xml
+2016-01-13 14:30:04.580 [main] DEBUG net.sf.ehcache.config.ConfigurationFactory - Configuring ehcache from InputStream
+2016-01-13 14:30:04.608 [main] DEBUG net.sf.ehcache.config.BeanHandler - Ignoring ehcache attribute xmlns:xsi
+2016-01-13 14:30:04.609 [main] DEBUG net.sf.ehcache.config.BeanHandler - Ignoring ehcache attribute xsi:noNamespaceSchemaLocation
+2016-01-13 14:30:04.611 [main] DEBUG net.sf.ehcache.config.DiskStoreConfiguration - Disk Store Path: /tmp
+2016-01-13 14:30:04.691 [main] DEBUG net.sf.ehcache.util.PropertyUtil - propertiesString is null.
+2016-01-13 14:30:04.696 [main] DEBUG net.sf.ehcache.config.ConfigurationHelper - No CacheManagerEventListenerFactory class specified. Skipping...
+2016-01-13 14:30:04.743 [main] DEBUG net.sf.ehcache.Cache - No BootstrapCacheLoaderFactory class specified. Skipping...
+2016-01-13 14:30:04.744 [main] DEBUG net.sf.ehcache.Cache - CacheWriter factory not configured. Skipping...
+2016-01-13 14:30:04.746 [main] DEBUG net.sf.ehcache.config.ConfigurationHelper - No CacheExceptionHandlerFactory class specified. Skipping...
+2016-01-13 14:30:04.772 [main] DEBUG net.sf.ehcache.store.compound.factories.DiskOverflowStorageFactory - Deleting data file org.hibernate.cache.spi.UpdateTimestampsCache.data
+2016-01-13 14:30:04.800 [main] DEBUG net.sf.ehcache.Cache - Initialised cache: org.hibernate.cache.spi.UpdateTimestampsCache
+2016-01-13 14:30:04.801 [main] DEBUG net.sf.ehcache.config.ConfigurationHelper - CacheDecoratorFactory not configured for defaultCache. Skipping for 'org.hibernate.cache.spi.UpdateTimestampsCache'.
+2016-01-13 14:30:04.808 [main] DEBUG net.sf.ehcache.store.compound.factories.DiskOverflowStorageFactory - Deleting data file org.hibernate.cache.internal.StandardQueryCache.data
+2016-01-13 14:30:04.810 [main] DEBUG net.sf.ehcache.Cache - Initialised cache: org.hibernate.cache.internal.StandardQueryCache
+2016-01-13 14:30:04.811 [main] DEBUG net.sf.ehcache.config.ConfigurationHelper - CacheDecoratorFactory not configured for defaultCache. Skipping for 'org.hibernate.cache.internal.StandardQueryCache'.
+2016-01-13 14:30:05.557 [main] DEBUG co.jufeng.dao.hibernate.dao.impl.HibernateAccessor - CriteriaImpl(co.jufeng.model.mingyuan.Advertisement:this[][])
+2016-01-13 14:30:05.749 [net.sf.ehcache.CacheManager@74a6f9c1] DEBUG net.sf.ehcache.util.UpdateChecker - Checking for update...
+2016-01-13 14:34:50.084 [main] DEBUG net.sf.ehcache.config.ConfigurationFactory - Configuring ehcache from ehcache.xml found in the classpath: file:/home/jufeng/Java/git/jufeng-java/jufeng-framework/mingyuan-model/target/classes/ehcache.xml
+2016-01-13 14:34:50.088 [main] DEBUG net.sf.ehcache.config.ConfigurationFactory - Configuring ehcache from URL: file:/home/jufeng/Java/git/jufeng-java/jufeng-framework/mingyuan-model/target/classes/ehcache.xml
+2016-01-13 14:34:50.091 [main] DEBUG net.sf.ehcache.config.ConfigurationFactory - Configuring ehcache from InputStream
+2016-01-13 14:34:50.117 [main] DEBUG net.sf.ehcache.config.BeanHandler - Ignoring ehcache attribute xmlns:xsi
+2016-01-13 14:34:50.118 [main] DEBUG net.sf.ehcache.config.BeanHandler - Ignoring ehcache attribute xsi:noNamespaceSchemaLocation
+2016-01-13 14:34:50.119 [main] DEBUG net.sf.ehcache.config.DiskStoreConfiguration - Disk Store Path: /tmp
+2016-01-13 14:34:50.180 [main] DEBUG net.sf.ehcache.util.PropertyUtil - propertiesString is null.
+2016-01-13 14:34:50.185 [main] DEBUG net.sf.ehcache.config.ConfigurationHelper - No CacheManagerEventListenerFactory class specified. Skipping...
+2016-01-13 14:34:50.225 [main] DEBUG net.sf.ehcache.Cache - No BootstrapCacheLoaderFactory class specified. Skipping...
+2016-01-13 14:34:50.226 [main] DEBUG net.sf.ehcache.Cache - CacheWriter factory not configured. Skipping...
+2016-01-13 14:34:50.228 [main] DEBUG net.sf.ehcache.config.ConfigurationHelper - No CacheExceptionHandlerFactory class specified. Skipping...
+2016-01-13 14:34:50.254 [main] DEBUG net.sf.ehcache.store.compound.factories.DiskOverflowStorageFactory - Deleting data file org.hibernate.cache.spi.UpdateTimestampsCache.data
+2016-01-13 14:34:50.286 [main] DEBUG net.sf.ehcache.Cache - Initialised cache: org.hibernate.cache.spi.UpdateTimestampsCache
+2016-01-13 14:34:50.288 [main] DEBUG net.sf.ehcache.config.ConfigurationHelper - CacheDecoratorFactory not configured for defaultCache. Skipping for 'org.hibernate.cache.spi.UpdateTimestampsCache'.
+2016-01-13 14:34:50.296 [main] DEBUG net.sf.ehcache.store.compound.factories.DiskOverflowStorageFactory - Deleting data file org.hibernate.cache.internal.StandardQueryCache.data
+2016-01-13 14:34:50.298 [main] DEBUG net.sf.ehcache.Cache - Initialised cache: org.hibernate.cache.internal.StandardQueryCache
+2016-01-13 14:34:50.298 [main] DEBUG net.sf.ehcache.config.ConfigurationHelper - CacheDecoratorFactory not configured for defaultCache. Skipping for 'org.hibernate.cache.internal.StandardQueryCache'.
+2016-01-13 14:34:51.104 [main] DEBUG co.jufeng.dao.hibernate.dao.impl.HibernateAccessor - CriteriaImpl(co.jufeng.model.mingyuan.Advertisement:this[][])
+2016-01-13 14:34:51.232 [net.sf.ehcache.CacheManager@74a6f9c1] DEBUG net.sf.ehcache.util.UpdateChecker - Checking for update...
+2016-01-13 14:35:30.551 [main] DEBUG net.sf.ehcache.config.ConfigurationFactory - Configuring ehcache from ehcache.xml found in the classpath: file:/home/jufeng/Java/git/jufeng-java/jufeng-framework/mingyuan-model/target/classes/ehcache.xml
+2016-01-13 14:35:30.554 [main] DEBUG net.sf.ehcache.config.ConfigurationFactory - Configuring ehcache from URL: file:/home/jufeng/Java/git/jufeng-java/jufeng-framework/mingyuan-model/target/classes/ehcache.xml
+2016-01-13 14:35:30.558 [main] DEBUG net.sf.ehcache.config.ConfigurationFactory - Configuring ehcache from InputStream
+2016-01-13 14:35:30.585 [main] DEBUG net.sf.ehcache.config.BeanHandler - Ignoring ehcache attribute xmlns:xsi
+2016-01-13 14:35:30.586 [main] DEBUG net.sf.ehcache.config.BeanHandler - Ignoring ehcache attribute xsi:noNamespaceSchemaLocation
+2016-01-13 14:35:30.587 [main] DEBUG net.sf.ehcache.config.DiskStoreConfiguration - Disk Store Path: /tmp
+2016-01-13 14:35:30.649 [main] DEBUG net.sf.ehcache.util.PropertyUtil - propertiesString is null.
+2016-01-13 14:35:30.656 [main] DEBUG net.sf.ehcache.config.ConfigurationHelper - No CacheManagerEventListenerFactory class specified. Skipping...
+2016-01-13 14:35:30.704 [main] DEBUG net.sf.ehcache.Cache - No BootstrapCacheLoaderFactory class specified. Skipping...
+2016-01-13 14:35:30.705 [main] DEBUG net.sf.ehcache.Cache - CacheWriter factory not configured. Skipping...
+2016-01-13 14:35:30.707 [main] DEBUG net.sf.ehcache.config.ConfigurationHelper - No CacheExceptionHandlerFactory class specified. Skipping...
+2016-01-13 14:35:30.739 [main] DEBUG net.sf.ehcache.store.compound.factories.DiskOverflowStorageFactory - Deleting data file org.hibernate.cache.spi.UpdateTimestampsCache.data
+2016-01-13 14:35:30.774 [main] DEBUG net.sf.ehcache.Cache - Initialised cache: org.hibernate.cache.spi.UpdateTimestampsCache
+2016-01-13 14:35:30.775 [main] DEBUG net.sf.ehcache.config.ConfigurationHelper - CacheDecoratorFactory not configured for defaultCache. Skipping for 'org.hibernate.cache.spi.UpdateTimestampsCache'.
+2016-01-13 14:35:30.782 [main] DEBUG net.sf.ehcache.store.compound.factories.DiskOverflowStorageFactory - Deleting data file org.hibernate.cache.internal.StandardQueryCache.data
+2016-01-13 14:35:30.784 [main] DEBUG net.sf.ehcache.Cache - Initialised cache: org.hibernate.cache.internal.StandardQueryCache
+2016-01-13 14:35:30.784 [main] DEBUG net.sf.ehcache.config.ConfigurationHelper - CacheDecoratorFactory not configured for defaultCache. Skipping for 'org.hibernate.cache.internal.StandardQueryCache'.
+2016-01-13 14:35:31.509 [main] DEBUG co.jufeng.dao.hibernate.dao.impl.HibernateAccessor - CriteriaImpl(co.jufeng.model.mingyuan.Advertisement:this[][])
+2016-01-13 14:35:31.793 [net.sf.ehcache.CacheManager@74a6f9c1] DEBUG net.sf.ehcache.util.UpdateChecker - Checking for update...
+2016-01-13 14:53:49.816 [main] DEBUG net.sf.ehcache.config.ConfigurationFactory - Configuring ehcache from ehcache.xml found in the classpath: file:/home/jufeng/Java/git/jufeng-java/jufeng-framework/mingyuan-model/target/classes/ehcache.xml
+2016-01-13 14:53:49.820 [main] DEBUG net.sf.ehcache.config.ConfigurationFactory - Configuring ehcache from URL: file:/home/jufeng/Java/git/jufeng-java/jufeng-framework/mingyuan-model/target/classes/ehcache.xml
+2016-01-13 14:53:49.823 [main] DEBUG net.sf.ehcache.config.ConfigurationFactory - Configuring ehcache from InputStream
+2016-01-13 14:53:49.851 [main] DEBUG net.sf.ehcache.config.BeanHandler - Ignoring ehcache attribute xmlns:xsi
+2016-01-13 14:53:49.852 [main] DEBUG net.sf.ehcache.config.BeanHandler - Ignoring ehcache attribute xsi:noNamespaceSchemaLocation
+2016-01-13 14:53:49.853 [main] DEBUG net.sf.ehcache.config.DiskStoreConfiguration - Disk Store Path: /tmp
+2016-01-13 14:53:49.928 [main] DEBUG net.sf.ehcache.util.PropertyUtil - propertiesString is null.
+2016-01-13 14:53:49.932 [main] DEBUG net.sf.ehcache.config.ConfigurationHelper - No CacheManagerEventListenerFactory class specified. Skipping...
+2016-01-13 14:53:49.975 [main] DEBUG net.sf.ehcache.Cache - No BootstrapCacheLoaderFactory class specified. Skipping...
+2016-01-13 14:53:49.976 [main] DEBUG net.sf.ehcache.Cache - CacheWriter factory not configured. Skipping...
+2016-01-13 14:53:49.979 [main] DEBUG net.sf.ehcache.config.ConfigurationHelper - No CacheExceptionHandlerFactory class specified. Skipping...
+2016-01-13 14:53:50.006 [main] DEBUG net.sf.ehcache.store.compound.factories.DiskOverflowStorageFactory - Deleting data file org.hibernate.cache.spi.UpdateTimestampsCache.data
+2016-01-13 14:53:50.035 [main] DEBUG net.sf.ehcache.Cache - Initialised cache: org.hibernate.cache.spi.UpdateTimestampsCache
+2016-01-13 14:53:50.036 [main] DEBUG net.sf.ehcache.config.ConfigurationHelper - CacheDecoratorFactory not configured for defaultCache. Skipping for 'org.hibernate.cache.spi.UpdateTimestampsCache'.
+2016-01-13 14:53:50.045 [main] DEBUG net.sf.ehcache.store.compound.factories.DiskOverflowStorageFactory - Deleting data file org.hibernate.cache.internal.StandardQueryCache.data
+2016-01-13 14:53:50.047 [main] DEBUG net.sf.ehcache.Cache - Initialised cache: org.hibernate.cache.internal.StandardQueryCache
+2016-01-13 14:53:50.048 [main] DEBUG net.sf.ehcache.config.ConfigurationHelper - CacheDecoratorFactory not configured for defaultCache. Skipping for 'org.hibernate.cache.internal.StandardQueryCache'.
+2016-01-13 14:53:50.753 [main] DEBUG co.jufeng.dao.hibernate.dao.impl.HibernateAccessor - CriteriaImpl(co.jufeng.model.mingyuan.Advertisement:this[][])
+2016-01-13 14:53:51.006 [net.sf.ehcache.CacheManager@74a6f9c1] DEBUG net.sf.ehcache.util.UpdateChecker - Checking for update...
+2016-01-13 14:53:51.080 [main] DEBUG co.jufeng.dao.hibernate.dao.impl.HibernateAccessor - CriteriaImpl(co.jufeng.model.mingyuan.Advertisement:this[][])
+2016-01-13 14:54:35.092 [main] DEBUG net.sf.ehcache.config.ConfigurationFactory - Configuring ehcache from ehcache.xml found in the classpath: file:/home/jufeng/Java/git/jufeng-java/jufeng-framework/mingyuan-model/target/classes/ehcache.xml
+2016-01-13 14:54:35.096 [main] DEBUG net.sf.ehcache.config.ConfigurationFactory - Configuring ehcache from URL: file:/home/jufeng/Java/git/jufeng-java/jufeng-framework/mingyuan-model/target/classes/ehcache.xml
+2016-01-13 14:54:35.099 [main] DEBUG net.sf.ehcache.config.ConfigurationFactory - Configuring ehcache from InputStream
+2016-01-13 14:54:35.123 [main] DEBUG net.sf.ehcache.config.BeanHandler - Ignoring ehcache attribute xmlns:xsi
+2016-01-13 14:54:35.123 [main] DEBUG net.sf.ehcache.config.BeanHandler - Ignoring ehcache attribute xsi:noNamespaceSchemaLocation
+2016-01-13 14:54:35.125 [main] DEBUG net.sf.ehcache.config.DiskStoreConfiguration - Disk Store Path: /tmp
+2016-01-13 14:54:35.194 [main] DEBUG net.sf.ehcache.util.PropertyUtil - propertiesString is null.
+2016-01-13 14:54:35.198 [main] DEBUG net.sf.ehcache.config.ConfigurationHelper - No CacheManagerEventListenerFactory class specified. Skipping...
+2016-01-13 14:54:35.236 [main] DEBUG net.sf.ehcache.Cache - No BootstrapCacheLoaderFactory class specified. Skipping...
+2016-01-13 14:54:35.236 [main] DEBUG net.sf.ehcache.Cache - CacheWriter factory not configured. Skipping...
+2016-01-13 14:54:35.238 [main] DEBUG net.sf.ehcache.config.ConfigurationHelper - No CacheExceptionHandlerFactory class specified. Skipping...
+2016-01-13 14:54:35.266 [main] DEBUG net.sf.ehcache.store.compound.factories.DiskOverflowStorageFactory - Deleting data file org.hibernate.cache.spi.UpdateTimestampsCache.data
+2016-01-13 14:54:35.295 [main] DEBUG net.sf.ehcache.Cache - Initialised cache: org.hibernate.cache.spi.UpdateTimestampsCache
+2016-01-13 14:54:35.296 [main] DEBUG net.sf.ehcache.config.ConfigurationHelper - CacheDecoratorFactory not configured for defaultCache. Skipping for 'org.hibernate.cache.spi.UpdateTimestampsCache'.
+2016-01-13 14:54:35.304 [main] DEBUG net.sf.ehcache.store.compound.factories.DiskOverflowStorageFactory - Deleting data file org.hibernate.cache.internal.StandardQueryCache.data
+2016-01-13 14:54:35.323 [main] DEBUG net.sf.ehcache.Cache - Initialised cache: org.hibernate.cache.internal.StandardQueryCache
+2016-01-13 14:54:35.323 [main] DEBUG net.sf.ehcache.config.ConfigurationHelper - CacheDecoratorFactory not configured for defaultCache. Skipping for 'org.hibernate.cache.internal.StandardQueryCache'.
+2016-01-13 14:54:36.016 [main] DEBUG co.jufeng.dao.hibernate.dao.impl.HibernateAccessor - CriteriaImpl(co.jufeng.model.mingyuan.Advertisement:this[][])
+2016-01-13 14:54:36.242 [net.sf.ehcache.CacheManager@74a6f9c1] DEBUG net.sf.ehcache.util.UpdateChecker - Checking for update...
+2016-01-13 14:54:36.268 [main] DEBUG co.jufeng.dao.hibernate.dao.impl.HibernateAccessor - CriteriaImpl(co.jufeng.model.mingyuan.Advertisement:this[][])
+2016-01-13 14:54:36.277 [main] DEBUG co.jufeng.dao.hibernate.dao.impl.HibernateAccessor - CriteriaImpl(co.jufeng.model.mingyuan.Advertisement:this[][])
+2016-01-13 14:54:36.279 [main] DEBUG co.jufeng.dao.hibernate.dao.impl.HibernateAccessor - CriteriaImpl(co.jufeng.model.mingyuan.Advertisement:this[][])
+2016-01-13 15:01:01.357 [main] DEBUG net.sf.ehcache.config.ConfigurationFactory - Configuring ehcache from ehcache.xml found in the classpath: file:/home/jufeng/Java/git/jufeng-java/jufeng-framework/mingyuan-model/target/classes/ehcache.xml
+2016-01-13 15:01:01.360 [main] DEBUG net.sf.ehcache.config.ConfigurationFactory - Configuring ehcache from URL: file:/home/jufeng/Java/git/jufeng-java/jufeng-framework/mingyuan-model/target/classes/ehcache.xml
+2016-01-13 15:01:01.363 [main] DEBUG net.sf.ehcache.config.ConfigurationFactory - Configuring ehcache from InputStream
+2016-01-13 15:01:01.393 [main] DEBUG net.sf.ehcache.config.BeanHandler - Ignoring ehcache attribute xmlns:xsi
+2016-01-13 15:01:01.393 [main] DEBUG net.sf.ehcache.config.BeanHandler - Ignoring ehcache attribute xsi:noNamespaceSchemaLocation
+2016-01-13 15:01:01.395 [main] DEBUG net.sf.ehcache.config.DiskStoreConfiguration - Disk Store Path: /tmp
+2016-01-13 15:01:01.456 [main] DEBUG net.sf.ehcache.util.PropertyUtil - propertiesString is null.
+2016-01-13 15:01:01.462 [main] DEBUG net.sf.ehcache.config.ConfigurationHelper - No CacheManagerEventListenerFactory class specified. Skipping...
+2016-01-13 15:01:01.510 [main] DEBUG net.sf.ehcache.Cache - No BootstrapCacheLoaderFactory class specified. Skipping...
+2016-01-13 15:01:01.512 [main] DEBUG net.sf.ehcache.Cache - CacheWriter factory not configured. Skipping...
+2016-01-13 15:01:01.514 [main] DEBUG net.sf.ehcache.config.ConfigurationHelper - No CacheExceptionHandlerFactory class specified. Skipping...
+2016-01-13 15:01:01.541 [main] DEBUG net.sf.ehcache.store.compound.factories.DiskOverflowStorageFactory - Deleting data file org.hibernate.cache.spi.UpdateTimestampsCache.data
+2016-01-13 15:01:01.570 [main] DEBUG net.sf.ehcache.Cache - Initialised cache: org.hibernate.cache.spi.UpdateTimestampsCache
+2016-01-13 15:01:01.571 [main] DEBUG net.sf.ehcache.config.ConfigurationHelper - CacheDecoratorFactory not configured for defaultCache. Skipping for 'org.hibernate.cache.spi.UpdateTimestampsCache'.
+2016-01-13 15:01:01.579 [main] DEBUG net.sf.ehcache.store.compound.factories.DiskOverflowStorageFactory - Deleting data file org.hibernate.cache.internal.StandardQueryCache.data
+2016-01-13 15:01:01.583 [main] DEBUG net.sf.ehcache.Cache - Initialised cache: org.hibernate.cache.internal.StandardQueryCache
+2016-01-13 15:01:01.584 [main] DEBUG net.sf.ehcache.config.ConfigurationHelper - CacheDecoratorFactory not configured for defaultCache. Skipping for 'org.hibernate.cache.internal.StandardQueryCache'.
+2016-01-13 15:01:02.324 [main] DEBUG co.jufeng.dao.hibernate.dao.impl.HibernateAccessor - CriteriaImpl(co.jufeng.model.mingyuan.Advertisement:this[][])
+2016-01-13 15:04:07.169 [main] DEBUG net.sf.ehcache.config.ConfigurationFactory - Configuring ehcache from ehcache.xml found in the classpath: file:/home/jufeng/Java/git/jufeng-java/jufeng-framework/mingyuan-model/target/classes/ehcache.xml
+2016-01-13 15:04:07.172 [main] DEBUG net.sf.ehcache.config.ConfigurationFactory - Configuring ehcache from URL: file:/home/jufeng/Java/git/jufeng-java/jufeng-framework/mingyuan-model/target/classes/ehcache.xml
+2016-01-13 15:04:07.175 [main] DEBUG net.sf.ehcache.config.ConfigurationFactory - Configuring ehcache from InputStream
+2016-01-13 15:04:07.199 [main] DEBUG net.sf.ehcache.config.BeanHandler - Ignoring ehcache attribute xmlns:xsi
+2016-01-13 15:04:07.200 [main] DEBUG net.sf.ehcache.config.BeanHandler - Ignoring ehcache attribute xsi:noNamespaceSchemaLocation
+2016-01-13 15:04:07.201 [main] DEBUG net.sf.ehcache.config.DiskStoreConfiguration - Disk Store Path: /tmp
+2016-01-13 15:04:07.256 [main] DEBUG net.sf.ehcache.util.PropertyUtil - propertiesString is null.
+2016-01-13 15:04:07.260 [main] DEBUG net.sf.ehcache.config.ConfigurationHelper - No CacheManagerEventListenerFactory class specified. Skipping...
+2016-01-13 15:04:07.296 [main] DEBUG net.sf.ehcache.Cache - No BootstrapCacheLoaderFactory class specified. Skipping...
+2016-01-13 15:04:07.297 [main] DEBUG net.sf.ehcache.Cache - CacheWriter factory not configured. Skipping...
+2016-01-13 15:04:07.299 [main] DEBUG net.sf.ehcache.config.ConfigurationHelper - No CacheExceptionHandlerFactory class specified. Skipping...
+2016-01-13 15:04:07.331 [main] DEBUG net.sf.ehcache.store.compound.factories.DiskOverflowStorageFactory - Deleting data file org.hibernate.cache.spi.UpdateTimestampsCache.data
+2016-01-13 15:04:07.382 [main] DEBUG net.sf.ehcache.Cache - Initialised cache: org.hibernate.cache.spi.UpdateTimestampsCache
+2016-01-13 15:04:07.383 [main] DEBUG net.sf.ehcache.config.ConfigurationHelper - CacheDecoratorFactory not configured for defaultCache. Skipping for 'org.hibernate.cache.spi.UpdateTimestampsCache'.
+2016-01-13 15:04:07.394 [main] DEBUG net.sf.ehcache.store.compound.factories.DiskOverflowStorageFactory - Deleting data file org.hibernate.cache.internal.StandardQueryCache.data
+2016-01-13 15:04:07.396 [main] DEBUG net.sf.ehcache.Cache - Initialised cache: org.hibernate.cache.internal.StandardQueryCache
+2016-01-13 15:04:07.397 [main] DEBUG net.sf.ehcache.config.ConfigurationHelper - CacheDecoratorFactory not configured for defaultCache. Skipping for 'org.hibernate.cache.internal.StandardQueryCache'.
+2016-01-13 15:04:08.142 [main] DEBUG co.jufeng.dao.hibernate.dao.impl.HibernateAccessor - CriteriaImpl(co.jufeng.model.mingyuan.Advertisement:this[][])
+2016-01-13 15:05:54.908 [main] DEBUG net.sf.ehcache.config.ConfigurationFactory - Configuring ehcache from ehcache.xml found in the classpath: file:/home/jufeng/Java/git/jufeng-java/jufeng-framework/mingyuan-model/target/classes/ehcache.xml
+2016-01-13 15:05:54.912 [main] DEBUG net.sf.ehcache.config.ConfigurationFactory - Configuring ehcache from URL: file:/home/jufeng/Java/git/jufeng-java/jufeng-framework/mingyuan-model/target/classes/ehcache.xml
+2016-01-13 15:05:54.915 [main] DEBUG net.sf.ehcache.config.ConfigurationFactory - Configuring ehcache from InputStream
+2016-01-13 15:05:54.943 [main] DEBUG net.sf.ehcache.config.BeanHandler - Ignoring ehcache attribute xmlns:xsi
+2016-01-13 15:05:54.943 [main] DEBUG net.sf.ehcache.config.BeanHandler - Ignoring ehcache attribute xsi:noNamespaceSchemaLocation
+2016-01-13 15:05:54.945 [main] DEBUG net.sf.ehcache.config.DiskStoreConfiguration - Disk Store Path: /tmp
+2016-01-13 15:05:55.004 [main] DEBUG net.sf.ehcache.util.PropertyUtil - propertiesString is null.
+2016-01-13 15:05:55.008 [main] DEBUG net.sf.ehcache.config.ConfigurationHelper - No CacheManagerEventListenerFactory class specified. Skipping...
+2016-01-13 15:05:55.059 [main] DEBUG net.sf.ehcache.Cache - No BootstrapCacheLoaderFactory class specified. Skipping...
+2016-01-13 15:05:55.059 [main] DEBUG net.sf.ehcache.Cache - CacheWriter factory not configured. Skipping...
+2016-01-13 15:05:55.062 [main] DEBUG net.sf.ehcache.config.ConfigurationHelper - No CacheExceptionHandlerFactory class specified. Skipping...
+2016-01-13 15:05:55.098 [main] DEBUG net.sf.ehcache.store.compound.factories.DiskOverflowStorageFactory - Deleting data file org.hibernate.cache.spi.UpdateTimestampsCache.data
+2016-01-13 15:05:55.138 [main] DEBUG net.sf.ehcache.Cache - Initialised cache: org.hibernate.cache.spi.UpdateTimestampsCache
+2016-01-13 15:05:55.139 [main] DEBUG net.sf.ehcache.config.ConfigurationHelper - CacheDecoratorFactory not configured for defaultCache. Skipping for 'org.hibernate.cache.spi.UpdateTimestampsCache'.
+2016-01-13 15:05:55.149 [main] DEBUG net.sf.ehcache.store.compound.factories.DiskOverflowStorageFactory - Deleting data file org.hibernate.cache.internal.StandardQueryCache.data
+2016-01-13 15:05:55.191 [main] DEBUG net.sf.ehcache.Cache - Initialised cache: org.hibernate.cache.internal.StandardQueryCache
+2016-01-13 15:05:55.191 [main] DEBUG net.sf.ehcache.config.ConfigurationHelper - CacheDecoratorFactory not configured for defaultCache. Skipping for 'org.hibernate.cache.internal.StandardQueryCache'.
+2016-01-13 15:05:55.907 [main] DEBUG co.jufeng.dao.hibernate.dao.impl.HibernateAccessor - CriteriaImpl(co.jufeng.model.mingyuan.Advertisement:this[][])
+2016-01-13 15:08:45.321 [main] DEBUG net.sf.ehcache.config.ConfigurationFactory - Configuring ehcache from ehcache.xml found in the classpath: file:/home/jufeng/Java/git/jufeng-java/jufeng-framework/mingyuan-model/target/classes/ehcache.xml
+2016-01-13 15:08:45.369 [main] DEBUG net.sf.ehcache.config.ConfigurationFactory - Configuring ehcache from URL: file:/home/jufeng/Java/git/jufeng-java/jufeng-framework/mingyuan-model/target/classes/ehcache.xml
+2016-01-13 15:08:45.373 [main] DEBUG net.sf.ehcache.config.ConfigurationFactory - Configuring ehcache from InputStream
+2016-01-13 15:08:45.438 [main] DEBUG net.sf.ehcache.config.BeanHandler - Ignoring ehcache attribute xmlns:xsi
+2016-01-13 15:08:45.438 [main] DEBUG net.sf.ehcache.config.BeanHandler - Ignoring ehcache attribute xsi:noNamespaceSchemaLocation
+2016-01-13 15:08:45.440 [main] DEBUG net.sf.ehcache.config.DiskStoreConfiguration - Disk Store Path: /tmp
+2016-01-13 15:08:45.613 [main] DEBUG net.sf.ehcache.util.PropertyUtil - propertiesString is null.
+2016-01-13 15:08:45.618 [main] DEBUG net.sf.ehcache.config.ConfigurationHelper - No CacheManagerEventListenerFactory class specified. Skipping...
+2016-01-13 15:08:45.689 [main] DEBUG net.sf.ehcache.Cache - No BootstrapCacheLoaderFactory class specified. Skipping...
+2016-01-13 15:08:45.690 [main] DEBUG net.sf.ehcache.Cache - CacheWriter factory not configured. Skipping...
+2016-01-13 15:08:45.693 [main] DEBUG net.sf.ehcache.config.ConfigurationHelper - No CacheExceptionHandlerFactory class specified. Skipping...
+2016-01-13 15:08:45.733 [main] DEBUG net.sf.ehcache.store.compound.factories.DiskOverflowStorageFactory - Deleting data file org.hibernate.cache.spi.UpdateTimestampsCache.data
+2016-01-13 15:08:45.771 [main] DEBUG net.sf.ehcache.Cache - Initialised cache: org.hibernate.cache.spi.UpdateTimestampsCache
+2016-01-13 15:08:45.772 [main] DEBUG net.sf.ehcache.config.ConfigurationHelper - CacheDecoratorFactory not configured for defaultCache. Skipping for 'org.hibernate.cache.spi.UpdateTimestampsCache'.
+2016-01-13 15:08:45.805 [main] DEBUG net.sf.ehcache.store.compound.factories.DiskOverflowStorageFactory - Deleting data file org.hibernate.cache.internal.StandardQueryCache.data
+2016-01-13 15:08:45.812 [main] DEBUG net.sf.ehcache.Cache - Initialised cache: org.hibernate.cache.internal.StandardQueryCache
+2016-01-13 15:08:45.814 [main] DEBUG net.sf.ehcache.config.ConfigurationHelper - CacheDecoratorFactory not configured for defaultCache. Skipping for 'org.hibernate.cache.internal.StandardQueryCache'.
+2016-01-13 15:08:46.708 [net.sf.ehcache.CacheManager@74a6f9c1] DEBUG net.sf.ehcache.util.UpdateChecker - Checking for update...
+2016-01-13 15:08:47.023 [main] DEBUG co.jufeng.dao.hibernate.dao.impl.HibernateAccessor - CriteriaImpl(co.jufeng.model.mingyuan.Advertisement:this[][])
+2016-01-13 15:12:32.316 [main] DEBUG net.sf.ehcache.config.ConfigurationFactory - Configuring ehcache from ehcache.xml found in the classpath: file:/home/jufeng/Java/git/jufeng-java/jufeng-framework/mingyuan-model/target/classes/ehcache.xml
+2016-01-13 15:12:32.322 [main] DEBUG net.sf.ehcache.config.ConfigurationFactory - Configuring ehcache from URL: file:/home/jufeng/Java/git/jufeng-java/jufeng-framework/mingyuan-model/target/classes/ehcache.xml
+2016-01-13 15:12:32.326 [main] DEBUG net.sf.ehcache.config.ConfigurationFactory - Configuring ehcache from InputStream
+2016-01-13 15:12:32.356 [main] DEBUG net.sf.ehcache.config.BeanHandler - Ignoring ehcache attribute xmlns:xsi
+2016-01-13 15:12:32.357 [main] DEBUG net.sf.ehcache.config.BeanHandler - Ignoring ehcache attribute xsi:noNamespaceSchemaLocation
+2016-01-13 15:12:32.359 [main] DEBUG net.sf.ehcache.config.DiskStoreConfiguration - Disk Store Path: /tmp
+2016-01-13 15:12:32.439 [main] DEBUG net.sf.ehcache.util.PropertyUtil - propertiesString is null.
+2016-01-13 15:12:32.446 [main] DEBUG net.sf.ehcache.config.ConfigurationHelper - No CacheManagerEventListenerFactory class specified. Skipping...
+2016-01-13 15:12:32.500 [main] DEBUG net.sf.ehcache.Cache - No BootstrapCacheLoaderFactory class specified. Skipping...
+2016-01-13 15:12:32.501 [main] DEBUG net.sf.ehcache.Cache - CacheWriter factory not configured. Skipping...
+2016-01-13 15:12:32.503 [main] DEBUG net.sf.ehcache.config.ConfigurationHelper - No CacheExceptionHandlerFactory class specified. Skipping...
+2016-01-13 15:12:32.541 [main] DEBUG net.sf.ehcache.store.compound.factories.DiskOverflowStorageFactory - Deleting data file org.hibernate.cache.spi.UpdateTimestampsCache.data
+2016-01-13 15:12:32.573 [main] DEBUG net.sf.ehcache.Cache - Initialised cache: org.hibernate.cache.spi.UpdateTimestampsCache
+2016-01-13 15:12:32.574 [main] DEBUG net.sf.ehcache.config.ConfigurationHelper - CacheDecoratorFactory not configured for defaultCache. Skipping for 'org.hibernate.cache.spi.UpdateTimestampsCache'.
+2016-01-13 15:12:32.583 [main] DEBUG net.sf.ehcache.store.compound.factories.DiskOverflowStorageFactory - Deleting data file org.hibernate.cache.internal.StandardQueryCache.data
+2016-01-13 15:12:32.584 [main] DEBUG net.sf.ehcache.Cache - Initialised cache: org.hibernate.cache.internal.StandardQueryCache
+2016-01-13 15:12:32.585 [main] DEBUG net.sf.ehcache.config.ConfigurationHelper - CacheDecoratorFactory not configured for defaultCache. Skipping for 'org.hibernate.cache.internal.StandardQueryCache'.
+2016-01-13 15:12:33.508 [net.sf.ehcache.CacheManager@492fc69e] DEBUG net.sf.ehcache.util.UpdateChecker - Checking for update...
+2016-01-13 15:12:33.760 [main] DEBUG co.jufeng.dao.hibernate.dao.impl.HibernateAccessor - CriteriaImpl(co.jufeng.model.mingyuan.Advertisement:this[][])
+2016-01-13 15:12:34.252 [net.sf.ehcache.CacheManager@492fc69e] INFO  net.sf.ehcache.util.UpdateChecker - New update(s) found: 2.4.7 [http://www.terracotta.org/confluence/display/release/Release+Notes+Ehcache+Core+2.4]. Please check http://ehcache.org for the latest version.
+2016-01-13 15:14:57.663 [main] DEBUG net.sf.ehcache.config.ConfigurationFactory - Configuring ehcache from ehcache.xml found in the classpath: file:/home/jufeng/Java/git/jufeng-java/jufeng-framework/mingyuan-model/target/classes/ehcache.xml
+2016-01-13 15:14:57.669 [main] DEBUG net.sf.ehcache.config.ConfigurationFactory - Configuring ehcache from URL: file:/home/jufeng/Java/git/jufeng-java/jufeng-framework/mingyuan-model/target/classes/ehcache.xml
+2016-01-13 15:14:57.673 [main] DEBUG net.sf.ehcache.config.ConfigurationFactory - Configuring ehcache from InputStream
+2016-01-13 15:14:57.705 [main] DEBUG net.sf.ehcache.config.BeanHandler - Ignoring ehcache attribute xmlns:xsi
+2016-01-13 15:14:57.706 [main] DEBUG net.sf.ehcache.config.BeanHandler - Ignoring ehcache attribute xsi:noNamespaceSchemaLocation
+2016-01-13 15:14:57.707 [main] DEBUG net.sf.ehcache.config.DiskStoreConfiguration - Disk Store Path: /tmp
+2016-01-13 15:14:57.793 [main] DEBUG net.sf.ehcache.util.PropertyUtil - propertiesString is null.
+2016-01-13 15:14:57.799 [main] DEBUG net.sf.ehcache.config.ConfigurationHelper - No CacheManagerEventListenerFactory class specified. Skipping...
+2016-01-13 15:14:57.845 [main] DEBUG net.sf.ehcache.Cache - No BootstrapCacheLoaderFactory class specified. Skipping...
+2016-01-13 15:14:57.846 [main] DEBUG net.sf.ehcache.Cache - CacheWriter factory not configured. Skipping...
+2016-01-13 15:14:57.848 [main] DEBUG net.sf.ehcache.config.ConfigurationHelper - No CacheExceptionHandlerFactory class specified. Skipping...
+2016-01-13 15:14:57.883 [main] DEBUG net.sf.ehcache.store.compound.factories.DiskOverflowStorageFactory - Deleting data file org.hibernate.cache.spi.UpdateTimestampsCache.data
+2016-01-13 15:14:57.914 [main] DEBUG net.sf.ehcache.Cache - Initialised cache: org.hibernate.cache.spi.UpdateTimestampsCache
+2016-01-13 15:14:57.915 [main] DEBUG net.sf.ehcache.config.ConfigurationHelper - CacheDecoratorFactory not configured for defaultCache. Skipping for 'org.hibernate.cache.spi.UpdateTimestampsCache'.
+2016-01-13 15:14:57.922 [main] DEBUG net.sf.ehcache.store.compound.factories.DiskOverflowStorageFactory - Deleting data file org.hibernate.cache.internal.StandardQueryCache.data
+2016-01-13 15:14:57.925 [main] DEBUG net.sf.ehcache.Cache - Initialised cache: org.hibernate.cache.internal.StandardQueryCache
+2016-01-13 15:14:57.925 [main] DEBUG net.sf.ehcache.config.ConfigurationHelper - CacheDecoratorFactory not configured for defaultCache. Skipping for 'org.hibernate.cache.internal.StandardQueryCache'.
+2016-01-13 15:14:58.659 [main] DEBUG co.jufeng.dao.hibernate.dao.impl.HibernateAccessor - CriteriaImpl(co.jufeng.model.mingyuan.Advertisement:this[][])
+2016-01-13 15:16:25.982 [main] DEBUG net.sf.ehcache.config.ConfigurationFactory - Configuring ehcache from ehcache.xml found in the classpath: file:/home/jufeng/Java/git/jufeng-java/jufeng-framework/mingyuan-model/target/classes/ehcache.xml
+2016-01-13 15:16:25.987 [main] DEBUG net.sf.ehcache.config.ConfigurationFactory - Configuring ehcache from URL: file:/home/jufeng/Java/git/jufeng-java/jufeng-framework/mingyuan-model/target/classes/ehcache.xml
+2016-01-13 15:16:25.990 [main] DEBUG net.sf.ehcache.config.ConfigurationFactory - Configuring ehcache from InputStream
+2016-01-13 15:16:26.015 [main] DEBUG net.sf.ehcache.config.BeanHandler - Ignoring ehcache attribute xmlns:xsi
+2016-01-13 15:16:26.016 [main] DEBUG net.sf.ehcache.config.BeanHandler - Ignoring ehcache attribute xsi:noNamespaceSchemaLocation
+2016-01-13 15:16:26.018 [main] DEBUG net.sf.ehcache.config.DiskStoreConfiguration - Disk Store Path: /tmp
+2016-01-13 15:16:26.093 [main] DEBUG net.sf.ehcache.util.PropertyUtil - propertiesString is null.
+2016-01-13 15:16:26.099 [main] DEBUG net.sf.ehcache.config.ConfigurationHelper - No CacheManagerEventListenerFactory class specified. Skipping...
+2016-01-13 15:16:26.141 [main] DEBUG net.sf.ehcache.Cache - No BootstrapCacheLoaderFactory class specified. Skipping...
+2016-01-13 15:16:26.141 [main] DEBUG net.sf.ehcache.Cache - CacheWriter factory not configured. Skipping...
+2016-01-13 15:16:26.143 [main] DEBUG net.sf.ehcache.config.ConfigurationHelper - No CacheExceptionHandlerFactory class specified. Skipping...
+2016-01-13 15:16:26.172 [main] DEBUG net.sf.ehcache.store.compound.factories.DiskOverflowStorageFactory - Deleting data file org.hibernate.cache.spi.UpdateTimestampsCache.data
+2016-01-13 15:16:26.203 [main] DEBUG net.sf.ehcache.Cache - Initialised cache: org.hibernate.cache.spi.UpdateTimestampsCache
+2016-01-13 15:16:26.203 [main] DEBUG net.sf.ehcache.config.ConfigurationHelper - CacheDecoratorFactory not configured for defaultCache. Skipping for 'org.hibernate.cache.spi.UpdateTimestampsCache'.
+2016-01-13 15:16:26.210 [main] DEBUG net.sf.ehcache.store.compound.factories.DiskOverflowStorageFactory - Deleting data file org.hibernate.cache.internal.StandardQueryCache.data
+2016-01-13 15:16:26.228 [main] DEBUG net.sf.ehcache.Cache - Initialised cache: org.hibernate.cache.internal.StandardQueryCache
+2016-01-13 15:16:26.229 [main] DEBUG net.sf.ehcache.config.ConfigurationHelper - CacheDecoratorFactory not configured for defaultCache. Skipping for 'org.hibernate.cache.internal.StandardQueryCache'.
+2016-01-13 15:16:26.926 [main] DEBUG co.jufeng.dao.hibernate.dao.impl.HibernateAccessor - CriteriaImpl(co.jufeng.model.mingyuan.Advertisement:this[][])
+2016-01-13 15:16:27.202 [net.sf.ehcache.CacheManager@74a6f9c1] DEBUG net.sf.ehcache.util.UpdateChecker - Checking for update...
+2016-01-13 15:22:44.794 [main] DEBUG net.sf.ehcache.config.ConfigurationFactory - Configuring ehcache from ehcache.xml found in the classpath: file:/home/jufeng/Java/git/jufeng-java/jufeng-framework/mingyuan-model/target/classes/ehcache.xml
+2016-01-13 15:22:44.797 [main] DEBUG net.sf.ehcache.config.ConfigurationFactory - Configuring ehcache from URL: file:/home/jufeng/Java/git/jufeng-java/jufeng-framework/mingyuan-model/target/classes/ehcache.xml
+2016-01-13 15:22:44.800 [main] DEBUG net.sf.ehcache.config.ConfigurationFactory - Configuring ehcache from InputStream
+2016-01-13 15:22:44.824 [main] DEBUG net.sf.ehcache.config.BeanHandler - Ignoring ehcache attribute xmlns:xsi
+2016-01-13 15:22:44.825 [main] DEBUG net.sf.ehcache.config.BeanHandler - Ignoring ehcache attribute xsi:noNamespaceSchemaLocation
+2016-01-13 15:22:44.826 [main] DEBUG net.sf.ehcache.config.DiskStoreConfiguration - Disk Store Path: /tmp
+2016-01-13 15:22:44.894 [main] DEBUG net.sf.ehcache.util.PropertyUtil - propertiesString is null.
+2016-01-13 15:22:44.900 [main] DEBUG net.sf.ehcache.config.ConfigurationHelper - No CacheManagerEventListenerFactory class specified. Skipping...
+2016-01-13 15:22:44.941 [main] DEBUG net.sf.ehcache.Cache - No BootstrapCacheLoaderFactory class specified. Skipping...
+2016-01-13 15:22:44.941 [main] DEBUG net.sf.ehcache.Cache - CacheWriter factory not configured. Skipping...
+2016-01-13 15:22:44.943 [main] DEBUG net.sf.ehcache.config.ConfigurationHelper - No CacheExceptionHandlerFactory class specified. Skipping...
+2016-01-13 15:22:44.970 [main] DEBUG net.sf.ehcache.store.compound.factories.DiskOverflowStorageFactory - Deleting data file org.hibernate.cache.spi.UpdateTimestampsCache.data
+2016-01-13 15:22:45.002 [main] DEBUG net.sf.ehcache.Cache - Initialised cache: org.hibernate.cache.spi.UpdateTimestampsCache
+2016-01-13 15:22:45.003 [main] DEBUG net.sf.ehcache.config.ConfigurationHelper - CacheDecoratorFactory not configured for defaultCache. Skipping for 'org.hibernate.cache.spi.UpdateTimestampsCache'.
+2016-01-13 15:22:45.014 [main] DEBUG net.sf.ehcache.store.compound.factories.DiskOverflowStorageFactory - Deleting data file org.hibernate.cache.internal.StandardQueryCache.data
+2016-01-13 15:22:45.016 [main] DEBUG net.sf.ehcache.Cache - Initialised cache: org.hibernate.cache.internal.StandardQueryCache
+2016-01-13 15:22:45.017 [main] DEBUG net.sf.ehcache.config.ConfigurationHelper - CacheDecoratorFactory not configured for defaultCache. Skipping for 'org.hibernate.cache.internal.StandardQueryCache'.
+2016-01-13 15:22:45.800 [main] DEBUG co.jufeng.dao.hibernate.dao.impl.HibernateAccessor - CriteriaImpl(co.jufeng.model.mingyuan.Advertisement:this[][])
+2016-01-13 15:22:45.986 [net.sf.ehcache.CacheManager@74a6f9c1] DEBUG net.sf.ehcache.util.UpdateChecker - Checking for update...
+2016-01-13 15:23:10.606 [main] DEBUG net.sf.ehcache.config.ConfigurationFactory - Configuring ehcache from ehcache.xml found in the classpath: file:/home/jufeng/Java/git/jufeng-java/jufeng-framework/mingyuan-model/target/classes/ehcache.xml
+2016-01-13 15:23:10.610 [main] DEBUG net.sf.ehcache.config.ConfigurationFactory - Configuring ehcache from URL: file:/home/jufeng/Java/git/jufeng-java/jufeng-framework/mingyuan-model/target/classes/ehcache.xml
+2016-01-13 15:23:10.613 [main] DEBUG net.sf.ehcache.config.ConfigurationFactory - Configuring ehcache from InputStream
+2016-01-13 15:23:10.641 [main] DEBUG net.sf.ehcache.config.BeanHandler - Ignoring ehcache attribute xmlns:xsi
+2016-01-13 15:23:10.642 [main] DEBUG net.sf.ehcache.config.BeanHandler - Ignoring ehcache attribute xsi:noNamespaceSchemaLocation
+2016-01-13 15:23:10.643 [main] DEBUG net.sf.ehcache.config.DiskStoreConfiguration - Disk Store Path: /tmp
+2016-01-13 15:23:10.718 [main] DEBUG net.sf.ehcache.util.PropertyUtil - propertiesString is null.
+2016-01-13 15:23:10.724 [main] DEBUG net.sf.ehcache.config.ConfigurationHelper - No CacheManagerEventListenerFactory class specified. Skipping...
+2016-01-13 15:23:10.770 [main] DEBUG net.sf.ehcache.Cache - No BootstrapCacheLoaderFactory class specified. Skipping...
+2016-01-13 15:23:10.770 [main] DEBUG net.sf.ehcache.Cache - CacheWriter factory not configured. Skipping...
+2016-01-13 15:23:10.773 [main] DEBUG net.sf.ehcache.config.ConfigurationHelper - No CacheExceptionHandlerFactory class specified. Skipping...
+2016-01-13 15:23:10.798 [main] DEBUG net.sf.ehcache.store.compound.factories.DiskOverflowStorageFactory - Deleting data file org.hibernate.cache.spi.UpdateTimestampsCache.data
+2016-01-13 15:23:10.828 [main] DEBUG net.sf.ehcache.Cache - Initialised cache: org.hibernate.cache.spi.UpdateTimestampsCache
+2016-01-13 15:23:10.828 [main] DEBUG net.sf.ehcache.config.ConfigurationHelper - CacheDecoratorFactory not configured for defaultCache. Skipping for 'org.hibernate.cache.spi.UpdateTimestampsCache'.
+2016-01-13 15:23:10.837 [main] DEBUG net.sf.ehcache.store.compound.factories.DiskOverflowStorageFactory - Deleting data file org.hibernate.cache.internal.StandardQueryCache.data
+2016-01-13 15:23:10.840 [main] DEBUG net.sf.ehcache.Cache - Initialised cache: org.hibernate.cache.internal.StandardQueryCache
+2016-01-13 15:23:10.841 [main] DEBUG net.sf.ehcache.config.ConfigurationHelper - CacheDecoratorFactory not configured for defaultCache. Skipping for 'org.hibernate.cache.internal.StandardQueryCache'.
+2016-01-13 15:23:11.606 [main] DEBUG co.jufeng.dao.hibernate.dao.impl.HibernateAccessor - CriteriaImpl(co.jufeng.model.mingyuan.Advertisement:this[][])
+2016-01-13 15:23:11.777 [net.sf.ehcache.CacheManager@74a6f9c1] DEBUG net.sf.ehcache.util.UpdateChecker - Checking for update...
+2016-01-13 15:23:34.543 [main] DEBUG net.sf.ehcache.config.ConfigurationFactory - Configuring ehcache from ehcache.xml found in the classpath: file:/home/jufeng/Java/git/jufeng-java/jufeng-framework/mingyuan-model/target/classes/ehcache.xml
+2016-01-13 15:23:34.546 [main] DEBUG net.sf.ehcache.config.ConfigurationFactory - Configuring ehcache from URL: file:/home/jufeng/Java/git/jufeng-java/jufeng-framework/mingyuan-model/target/classes/ehcache.xml
+2016-01-13 15:23:34.549 [main] DEBUG net.sf.ehcache.config.ConfigurationFactory - Configuring ehcache from InputStream
+2016-01-13 15:23:34.574 [main] DEBUG net.sf.ehcache.config.BeanHandler - Ignoring ehcache attribute xmlns:xsi
+2016-01-13 15:23:34.574 [main] DEBUG net.sf.ehcache.config.BeanHandler - Ignoring ehcache attribute xsi:noNamespaceSchemaLocation
+2016-01-13 15:23:34.576 [main] DEBUG net.sf.ehcache.config.DiskStoreConfiguration - Disk Store Path: /tmp
+2016-01-13 15:23:34.641 [main] DEBUG net.sf.ehcache.util.PropertyUtil - propertiesString is null.
+2016-01-13 15:23:34.645 [main] DEBUG net.sf.ehcache.config.ConfigurationHelper - No CacheManagerEventListenerFactory class specified. Skipping...
+2016-01-13 15:23:34.684 [main] DEBUG net.sf.ehcache.Cache - No BootstrapCacheLoaderFactory class specified. Skipping...
+2016-01-13 15:23:34.684 [main] DEBUG net.sf.ehcache.Cache - CacheWriter factory not configured. Skipping...
+2016-01-13 15:23:34.686 [main] DEBUG net.sf.ehcache.config.ConfigurationHelper - No CacheExceptionHandlerFactory class specified. Skipping...
+2016-01-13 15:23:34.710 [main] DEBUG net.sf.ehcache.store.compound.factories.DiskOverflowStorageFactory - Deleting data file org.hibernate.cache.spi.UpdateTimestampsCache.data
+2016-01-13 15:23:34.736 [main] DEBUG net.sf.ehcache.Cache - Initialised cache: org.hibernate.cache.spi.UpdateTimestampsCache
+2016-01-13 15:23:34.736 [main] DEBUG net.sf.ehcache.config.ConfigurationHelper - CacheDecoratorFactory not configured for defaultCache. Skipping for 'org.hibernate.cache.spi.UpdateTimestampsCache'.
+2016-01-13 15:23:34.743 [main] DEBUG net.sf.ehcache.store.compound.factories.DiskOverflowStorageFactory - Deleting data file org.hibernate.cache.internal.StandardQueryCache.data
+2016-01-13 15:23:34.745 [main] DEBUG net.sf.ehcache.Cache - Initialised cache: org.hibernate.cache.internal.StandardQueryCache
+2016-01-13 15:23:34.745 [main] DEBUG net.sf.ehcache.config.ConfigurationHelper - CacheDecoratorFactory not configured for defaultCache. Skipping for 'org.hibernate.cache.internal.StandardQueryCache'.
+2016-01-13 15:23:35.507 [main] DEBUG co.jufeng.dao.hibernate.dao.impl.HibernateAccessor - CriteriaImpl(co.jufeng.model.mingyuan.Advertisement:this[][])
+2016-01-13 15:24:27.275 [main] DEBUG net.sf.ehcache.config.ConfigurationFactory - Configuring ehcache from ehcache.xml found in the classpath: file:/home/jufeng/Java/git/jufeng-java/jufeng-framework/mingyuan-model/target/classes/ehcache.xml
+2016-01-13 15:24:27.279 [main] DEBUG net.sf.ehcache.config.ConfigurationFactory - Configuring ehcache from URL: file:/home/jufeng/Java/git/jufeng-java/jufeng-framework/mingyuan-model/target/classes/ehcache.xml
+2016-01-13 15:24:27.282 [main] DEBUG net.sf.ehcache.config.ConfigurationFactory - Configuring ehcache from InputStream
+2016-01-13 15:24:27.313 [main] DEBUG net.sf.ehcache.config.BeanHandler - Ignoring ehcache attribute xmlns:xsi
+2016-01-13 15:24:27.313 [main] DEBUG net.sf.ehcache.config.BeanHandler - Ignoring ehcache attribute xsi:noNamespaceSchemaLocation
+2016-01-13 15:24:27.315 [main] DEBUG net.sf.ehcache.config.DiskStoreConfiguration - Disk Store Path: /tmp
+2016-01-13 15:24:27.375 [main] DEBUG net.sf.ehcache.util.PropertyUtil - propertiesString is null.
+2016-01-13 15:24:27.379 [main] DEBUG net.sf.ehcache.config.ConfigurationHelper - No CacheManagerEventListenerFactory class specified. Skipping...
+2016-01-13 15:24:27.415 [main] DEBUG net.sf.ehcache.Cache - No BootstrapCacheLoaderFactory class specified. Skipping...
+2016-01-13 15:24:27.415 [main] DEBUG net.sf.ehcache.Cache - CacheWriter factory not configured. Skipping...
+2016-01-13 15:24:27.417 [main] DEBUG net.sf.ehcache.config.ConfigurationHelper - No CacheExceptionHandlerFactory class specified. Skipping...
+2016-01-13 15:24:27.443 [main] DEBUG net.sf.ehcache.store.compound.factories.DiskOverflowStorageFactory - Deleting data file org.hibernate.cache.spi.UpdateTimestampsCache.data
+2016-01-13 15:24:27.470 [main] DEBUG net.sf.ehcache.Cache - Initialised cache: org.hibernate.cache.spi.UpdateTimestampsCache
+2016-01-13 15:24:27.471 [main] DEBUG net.sf.ehcache.config.ConfigurationHelper - CacheDecoratorFactory not configured for defaultCache. Skipping for 'org.hibernate.cache.spi.UpdateTimestampsCache'.
+2016-01-13 15:24:27.478 [main] DEBUG net.sf.ehcache.store.compound.factories.DiskOverflowStorageFactory - Deleting data file org.hibernate.cache.internal.StandardQueryCache.data
+2016-01-13 15:24:27.479 [main] DEBUG net.sf.ehcache.Cache - Initialised cache: org.hibernate.cache.internal.StandardQueryCache
+2016-01-13 15:24:27.480 [main] DEBUG net.sf.ehcache.config.ConfigurationHelper - CacheDecoratorFactory not configured for defaultCache. Skipping for 'org.hibernate.cache.internal.StandardQueryCache'.
+2016-01-13 15:24:28.202 [main] DEBUG co.jufeng.dao.hibernate.dao.impl.HibernateAccessor - CriteriaImpl(co.jufeng.model.mingyuan.Advertisement:this[][])
+2016-01-13 15:25:20.274 [main] DEBUG net.sf.ehcache.config.ConfigurationFactory - Configuring ehcache from ehcache.xml found in the classpath: file:/home/jufeng/Java/git/jufeng-java/jufeng-framework/mingyuan-model/target/classes/ehcache.xml
+2016-01-13 15:25:20.277 [main] DEBUG net.sf.ehcache.config.ConfigurationFactory - Configuring ehcache from URL: file:/home/jufeng/Java/git/jufeng-java/jufeng-framework/mingyuan-model/target/classes/ehcache.xml
+2016-01-13 15:25:20.280 [main] DEBUG net.sf.ehcache.config.ConfigurationFactory - Configuring ehcache from InputStream
+2016-01-13 15:25:20.305 [main] DEBUG net.sf.ehcache.config.BeanHandler - Ignoring ehcache attribute xmlns:xsi
+2016-01-13 15:25:20.305 [main] DEBUG net.sf.ehcache.config.BeanHandler - Ignoring ehcache attribute xsi:noNamespaceSchemaLocation
+2016-01-13 15:25:20.307 [main] DEBUG net.sf.ehcache.config.DiskStoreConfiguration - Disk Store Path: /tmp
+2016-01-13 15:25:20.366 [main] DEBUG net.sf.ehcache.util.PropertyUtil - propertiesString is null.
+2016-01-13 15:25:20.370 [main] DEBUG net.sf.ehcache.config.ConfigurationHelper - No CacheManagerEventListenerFactory class specified. Skipping...
+2016-01-13 15:25:20.407 [main] DEBUG net.sf.ehcache.Cache - No BootstrapCacheLoaderFactory class specified. Skipping...
+2016-01-13 15:25:20.408 [main] DEBUG net.sf.ehcache.Cache - CacheWriter factory not configured. Skipping...
+2016-01-13 15:25:20.410 [main] DEBUG net.sf.ehcache.config.ConfigurationHelper - No CacheExceptionHandlerFactory class specified. Skipping...
+2016-01-13 15:25:20.437 [main] DEBUG net.sf.ehcache.store.compound.factories.DiskOverflowStorageFactory - Deleting data file org.hibernate.cache.spi.UpdateTimestampsCache.data
+2016-01-13 15:25:20.466 [main] DEBUG net.sf.ehcache.Cache - Initialised cache: org.hibernate.cache.spi.UpdateTimestampsCache
+2016-01-13 15:25:20.466 [main] DEBUG net.sf.ehcache.config.ConfigurationHelper - CacheDecoratorFactory not configured for defaultCache. Skipping for 'org.hibernate.cache.spi.UpdateTimestampsCache'.
+2016-01-13 15:25:20.473 [main] DEBUG net.sf.ehcache.store.compound.factories.DiskOverflowStorageFactory - Deleting data file org.hibernate.cache.internal.StandardQueryCache.data
+2016-01-13 15:25:20.501 [main] DEBUG net.sf.ehcache.Cache - Initialised cache: org.hibernate.cache.internal.StandardQueryCache
+2016-01-13 15:25:20.502 [main] DEBUG net.sf.ehcache.config.ConfigurationHelper - CacheDecoratorFactory not configured for defaultCache. Skipping for 'org.hibernate.cache.internal.StandardQueryCache'.
+2016-01-13 15:25:21.225 [main] DEBUG co.jufeng.dao.hibernate.dao.impl.HibernateAccessor - CriteriaImpl(co.jufeng.model.mingyuan.Advertisement:this[][])
+2016-01-13 15:42:33.631 [main] DEBUG net.sf.ehcache.config.ConfigurationFactory - Configuring ehcache from ehcache.xml found in the classpath: file:/home/jufeng/Java/git/jufeng-java/jufeng-framework/mingyuan-model/target/classes/ehcache.xml
+2016-01-13 15:42:33.662 [main] DEBUG net.sf.ehcache.config.ConfigurationFactory - Configuring ehcache from URL: file:/home/jufeng/Java/git/jufeng-java/jufeng-framework/mingyuan-model/target/classes/ehcache.xml
+2016-01-13 15:42:33.666 [main] DEBUG net.sf.ehcache.config.ConfigurationFactory - Configuring ehcache from InputStream
+2016-01-13 15:42:33.731 [main] DEBUG net.sf.ehcache.config.BeanHandler - Ignoring ehcache attribute xmlns:xsi
+2016-01-13 15:42:33.732 [main] DEBUG net.sf.ehcache.config.BeanHandler - Ignoring ehcache attribute xsi:noNamespaceSchemaLocation
+2016-01-13 15:42:33.734 [main] DEBUG net.sf.ehcache.config.DiskStoreConfiguration - Disk Store Path: /tmp
+2016-01-13 15:42:33.819 [main] DEBUG net.sf.ehcache.util.PropertyUtil - propertiesString is null.
+2016-01-13 15:42:33.824 [main] DEBUG net.sf.ehcache.config.ConfigurationHelper - No CacheManagerEventListenerFactory class specified. Skipping...
+2016-01-13 15:42:33.883 [main] DEBUG net.sf.ehcache.Cache - No BootstrapCacheLoaderFactory class specified. Skipping...
+2016-01-13 15:42:33.884 [main] DEBUG net.sf.ehcache.Cache - CacheWriter factory not configured. Skipping...
+2016-01-13 15:42:33.887 [main] DEBUG net.sf.ehcache.config.ConfigurationHelper - No CacheExceptionHandlerFactory class specified. Skipping...
+2016-01-13 15:42:33.924 [main] DEBUG net.sf.ehcache.store.compound.factories.DiskOverflowStorageFactory - Deleting data file org.hibernate.cache.spi.UpdateTimestampsCache.data
+2016-01-13 15:42:33.979 [main] DEBUG net.sf.ehcache.Cache - Initialised cache: org.hibernate.cache.spi.UpdateTimestampsCache
+2016-01-13 15:42:33.980 [main] DEBUG net.sf.ehcache.config.ConfigurationHelper - CacheDecoratorFactory not configured for defaultCache. Skipping for 'org.hibernate.cache.spi.UpdateTimestampsCache'.
+2016-01-13 15:42:33.989 [main] DEBUG net.sf.ehcache.store.compound.factories.DiskOverflowStorageFactory - Deleting data file org.hibernate.cache.internal.StandardQueryCache.data
+2016-01-13 15:42:33.992 [main] DEBUG net.sf.ehcache.Cache - Initialised cache: org.hibernate.cache.internal.StandardQueryCache
+2016-01-13 15:42:33.993 [main] DEBUG net.sf.ehcache.config.ConfigurationHelper - CacheDecoratorFactory not configured for defaultCache. Skipping for 'org.hibernate.cache.internal.StandardQueryCache'.
+2016-01-13 15:42:34.892 [net.sf.ehcache.CacheManager@28d18df5] DEBUG net.sf.ehcache.util.UpdateChecker - Checking for update...
+2016-01-13 15:42:39.458 [net.sf.ehcache.CacheManager@28d18df5] INFO  net.sf.ehcache.util.UpdateChecker - New update(s) found: 2.4.7 [http://www.terracotta.org/confluence/display/release/Release+Notes+Ehcache+Core+2.4]. Please check http://ehcache.org for the latest version.
+2016-01-13 15:43:06.887 [main] DEBUG net.sf.ehcache.config.ConfigurationFactory - Configuring ehcache from ehcache.xml found in the classpath: file:/home/jufeng/Java/git/jufeng-java/jufeng-framework/mingyuan-model/target/classes/ehcache.xml
+2016-01-13 15:43:06.891 [main] DEBUG net.sf.ehcache.config.ConfigurationFactory - Configuring ehcache from URL: file:/home/jufeng/Java/git/jufeng-java/jufeng-framework/mingyuan-model/target/classes/ehcache.xml
+2016-01-13 15:43:06.894 [main] DEBUG net.sf.ehcache.config.ConfigurationFactory - Configuring ehcache from InputStream
+2016-01-13 15:43:06.919 [main] DEBUG net.sf.ehcache.config.BeanHandler - Ignoring ehcache attribute xmlns:xsi
+2016-01-13 15:43:06.920 [main] DEBUG net.sf.ehcache.config.BeanHandler - Ignoring ehcache attribute xsi:noNamespaceSchemaLocation
+2016-01-13 15:43:06.922 [main] DEBUG net.sf.ehcache.config.DiskStoreConfiguration - Disk Store Path: /tmp
+2016-01-13 15:43:06.988 [main] DEBUG net.sf.ehcache.util.PropertyUtil - propertiesString is null.
+2016-01-13 15:43:06.993 [main] DEBUG net.sf.ehcache.config.ConfigurationHelper - No CacheManagerEventListenerFactory class specified. Skipping...
+2016-01-13 15:43:07.031 [main] DEBUG net.sf.ehcache.Cache - No BootstrapCacheLoaderFactory class specified. Skipping...
+2016-01-13 15:43:07.031 [main] DEBUG net.sf.ehcache.Cache - CacheWriter factory not configured. Skipping...
+2016-01-13 15:43:07.033 [main] DEBUG net.sf.ehcache.config.ConfigurationHelper - No CacheExceptionHandlerFactory class specified. Skipping...
+2016-01-13 15:43:07.061 [main] DEBUG net.sf.ehcache.store.compound.factories.DiskOverflowStorageFactory - Deleting data file org.hibernate.cache.spi.UpdateTimestampsCache.data
+2016-01-13 15:43:07.092 [main] DEBUG net.sf.ehcache.Cache - Initialised cache: org.hibernate.cache.spi.UpdateTimestampsCache
+2016-01-13 15:43:07.093 [main] DEBUG net.sf.ehcache.config.ConfigurationHelper - CacheDecoratorFactory not configured for defaultCache. Skipping for 'org.hibernate.cache.spi.UpdateTimestampsCache'.
+2016-01-13 15:43:07.101 [main] DEBUG net.sf.ehcache.store.compound.factories.DiskOverflowStorageFactory - Deleting data file org.hibernate.cache.internal.StandardQueryCache.data
+2016-01-13 15:43:07.112 [main] DEBUG net.sf.ehcache.Cache - Initialised cache: org.hibernate.cache.internal.StandardQueryCache
+2016-01-13 15:43:07.113 [main] DEBUG net.sf.ehcache.config.ConfigurationHelper - CacheDecoratorFactory not configured for defaultCache. Skipping for 'org.hibernate.cache.internal.StandardQueryCache'.
+2016-01-13 15:43:08.037 [net.sf.ehcache.CacheManager@1d483de4] DEBUG net.sf.ehcache.util.UpdateChecker - Checking for update...
+2016-01-13 15:43:08.764 [net.sf.ehcache.CacheManager@1d483de4] INFO  net.sf.ehcache.util.UpdateChecker - New update(s) found: 2.4.7 [http://www.terracotta.org/confluence/display/release/Release+Notes+Ehcache+Core+2.4]. Please check http://ehcache.org for the latest version.
+2016-01-13 15:43:39.873 [main] DEBUG net.sf.ehcache.config.ConfigurationFactory - Configuring ehcache from ehcache.xml found in the classpath: file:/home/jufeng/Java/git/jufeng-java/jufeng-framework/mingyuan-model/target/classes/ehcache.xml
+2016-01-13 15:43:39.877 [main] DEBUG net.sf.ehcache.config.ConfigurationFactory - Configuring ehcache from URL: file:/home/jufeng/Java/git/jufeng-java/jufeng-framework/mingyuan-model/target/classes/ehcache.xml
+2016-01-13 15:43:39.880 [main] DEBUG net.sf.ehcache.config.ConfigurationFactory - Configuring ehcache from InputStream
+2016-01-13 15:43:39.907 [main] DEBUG net.sf.ehcache.config.BeanHandler - Ignoring ehcache attribute xmlns:xsi
+2016-01-13 15:43:39.908 [main] DEBUG net.sf.ehcache.config.BeanHandler - Ignoring ehcache attribute xsi:noNamespaceSchemaLocation
+2016-01-13 15:43:39.910 [main] DEBUG net.sf.ehcache.config.DiskStoreConfiguration - Disk Store Path: /tmp
+2016-01-13 15:43:39.976 [main] DEBUG net.sf.ehcache.util.PropertyUtil - propertiesString is null.
+2016-01-13 15:43:39.982 [main] DEBUG net.sf.ehcache.config.ConfigurationHelper - No CacheManagerEventListenerFactory class specified. Skipping...
+2016-01-13 15:43:40.028 [main] DEBUG net.sf.ehcache.Cache - No BootstrapCacheLoaderFactory class specified. Skipping...
+2016-01-13 15:43:40.029 [main] DEBUG net.sf.ehcache.Cache - CacheWriter factory not configured. Skipping...
+2016-01-13 15:43:40.031 [main] DEBUG net.sf.ehcache.config.ConfigurationHelper - No CacheExceptionHandlerFactory class specified. Skipping...
+2016-01-13 15:43:40.065 [main] DEBUG net.sf.ehcache.store.compound.factories.DiskOverflowStorageFactory - Deleting data file org.hibernate.cache.spi.UpdateTimestampsCache.data
+2016-01-13 15:43:40.112 [main] DEBUG net.sf.ehcache.Cache - Initialised cache: org.hibernate.cache.spi.UpdateTimestampsCache
+2016-01-13 15:43:40.113 [main] DEBUG net.sf.ehcache.config.ConfigurationHelper - CacheDecoratorFactory not configured for defaultCache. Skipping for 'org.hibernate.cache.spi.UpdateTimestampsCache'.
+2016-01-13 15:43:40.127 [main] DEBUG net.sf.ehcache.store.compound.factories.DiskOverflowStorageFactory - Deleting data file org.hibernate.cache.internal.StandardQueryCache.data
+2016-01-13 15:43:40.132 [main] DEBUG net.sf.ehcache.Cache - Initialised cache: org.hibernate.cache.internal.StandardQueryCache
+2016-01-13 15:43:40.133 [main] DEBUG net.sf.ehcache.config.ConfigurationHelper - CacheDecoratorFactory not configured for defaultCache. Skipping for 'org.hibernate.cache.internal.StandardQueryCache'.
+2016-01-13 15:43:41.035 [net.sf.ehcache.CacheManager@28d18df5] DEBUG net.sf.ehcache.util.UpdateChecker - Checking for update...
+2016-01-13 15:43:41.729 [net.sf.ehcache.CacheManager@28d18df5] INFO  net.sf.ehcache.util.UpdateChecker - New update(s) found: 2.4.7 [http://www.terracotta.org/confluence/display/release/Release+Notes+Ehcache+Core+2.4]. Please check http://ehcache.org for the latest version.
+2016-01-13 15:45:32.841 [main] DEBUG net.sf.ehcache.config.ConfigurationFactory - Configuring ehcache from ehcache.xml found in the classpath: file:/home/jufeng/Java/git/jufeng-java/jufeng-framework/mingyuan-model/target/classes/ehcache.xml
+2016-01-13 15:45:32.844 [main] DEBUG net.sf.ehcache.config.ConfigurationFactory - Configuring ehcache from URL: file:/home/jufeng/Java/git/jufeng-java/jufeng-framework/mingyuan-model/target/classes/ehcache.xml
+2016-01-13 15:45:32.847 [main] DEBUG net.sf.ehcache.config.ConfigurationFactory - Configuring ehcache from InputStream
+2016-01-13 15:45:32.874 [main] DEBUG net.sf.ehcache.config.BeanHandler - Ignoring ehcache attribute xmlns:xsi
+2016-01-13 15:45:32.875 [main] DEBUG net.sf.ehcache.config.BeanHandler - Ignoring ehcache attribute xsi:noNamespaceSchemaLocation
+2016-01-13 15:45:32.877 [main] DEBUG net.sf.ehcache.config.DiskStoreConfiguration - Disk Store Path: /tmp
+2016-01-13 15:45:32.942 [main] DEBUG net.sf.ehcache.util.PropertyUtil - propertiesString is null.
+2016-01-13 15:45:32.947 [main] DEBUG net.sf.ehcache.config.ConfigurationHelper - No CacheManagerEventListenerFactory class specified. Skipping...
+2016-01-13 15:45:32.990 [main] DEBUG net.sf.ehcache.Cache - No BootstrapCacheLoaderFactory class specified. Skipping...
+2016-01-13 15:45:32.990 [main] DEBUG net.sf.ehcache.Cache - CacheWriter factory not configured. Skipping...
+2016-01-13 15:45:32.992 [main] DEBUG net.sf.ehcache.config.ConfigurationHelper - No CacheExceptionHandlerFactory class specified. Skipping...
+2016-01-13 15:45:33.018 [main] DEBUG net.sf.ehcache.store.compound.factories.DiskOverflowStorageFactory - Deleting data file org.hibernate.cache.spi.UpdateTimestampsCache.data
+2016-01-13 15:45:33.055 [main] DEBUG net.sf.ehcache.Cache - Initialised cache: org.hibernate.cache.spi.UpdateTimestampsCache
+2016-01-13 15:45:33.055 [main] DEBUG net.sf.ehcache.config.ConfigurationHelper - CacheDecoratorFactory not configured for defaultCache. Skipping for 'org.hibernate.cache.spi.UpdateTimestampsCache'.
+2016-01-13 15:45:33.064 [main] DEBUG net.sf.ehcache.store.compound.factories.DiskOverflowStorageFactory - Deleting data file org.hibernate.cache.internal.StandardQueryCache.data
+2016-01-13 15:45:33.070 [main] DEBUG net.sf.ehcache.Cache - Initialised cache: org.hibernate.cache.internal.StandardQueryCache
+2016-01-13 15:45:33.075 [main] DEBUG net.sf.ehcache.config.ConfigurationHelper - CacheDecoratorFactory not configured for defaultCache. Skipping for 'org.hibernate.cache.internal.StandardQueryCache'.
+2016-01-13 15:45:33.996 [net.sf.ehcache.CacheManager@28d18df5] DEBUG net.sf.ehcache.util.UpdateChecker - Checking for update...
+2016-01-13 15:45:34.505 [net.sf.ehcache.CacheManager@28d18df5] INFO  net.sf.ehcache.util.UpdateChecker - New update(s) found: 2.4.7 [http://www.terracotta.org/confluence/display/release/Release+Notes+Ehcache+Core+2.4]. Please check http://ehcache.org for the latest version.
+2016-01-13 15:47:23.942 [main] DEBUG net.sf.ehcache.config.ConfigurationFactory - Configuring ehcache from ehcache.xml found in the classpath: file:/home/jufeng/Java/git/jufeng-java/jufeng-framework/mingyuan-model/target/classes/ehcache.xml
+2016-01-13 15:47:23.946 [main] DEBUG net.sf.ehcache.config.ConfigurationFactory - Configuring ehcache from URL: file:/home/jufeng/Java/git/jufeng-java/jufeng-framework/mingyuan-model/target/classes/ehcache.xml
+2016-01-13 15:47:23.949 [main] DEBUG net.sf.ehcache.config.ConfigurationFactory - Configuring ehcache from InputStream
+2016-01-13 15:47:23.973 [main] DEBUG net.sf.ehcache.config.BeanHandler - Ignoring ehcache attribute xmlns:xsi
+2016-01-13 15:47:23.974 [main] DEBUG net.sf.ehcache.config.BeanHandler - Ignoring ehcache attribute xsi:noNamespaceSchemaLocation
+2016-01-13 15:47:23.976 [main] DEBUG net.sf.ehcache.config.DiskStoreConfiguration - Disk Store Path: /tmp
+2016-01-13 15:47:24.043 [main] DEBUG net.sf.ehcache.util.PropertyUtil - propertiesString is null.
+2016-01-13 15:47:24.048 [main] DEBUG net.sf.ehcache.config.ConfigurationHelper - No CacheManagerEventListenerFactory class specified. Skipping...
+2016-01-13 15:47:24.088 [main] DEBUG net.sf.ehcache.Cache - No BootstrapCacheLoaderFactory class specified. Skipping...
+2016-01-13 15:47:24.089 [main] DEBUG net.sf.ehcache.Cache - CacheWriter factory not configured. Skipping...
+2016-01-13 15:47:24.091 [main] DEBUG net.sf.ehcache.config.ConfigurationHelper - No CacheExceptionHandlerFactory class specified. Skipping...
+2016-01-13 15:47:24.124 [main] DEBUG net.sf.ehcache.store.compound.factories.DiskOverflowStorageFactory - Deleting data file org.hibernate.cache.spi.UpdateTimestampsCache.data
+2016-01-13 15:47:24.162 [main] DEBUG net.sf.ehcache.Cache - Initialised cache: org.hibernate.cache.spi.UpdateTimestampsCache
+2016-01-13 15:47:24.163 [main] DEBUG net.sf.ehcache.config.ConfigurationHelper - CacheDecoratorFactory not configured for defaultCache. Skipping for 'org.hibernate.cache.spi.UpdateTimestampsCache'.
+2016-01-13 15:47:24.173 [main] DEBUG net.sf.ehcache.store.compound.factories.DiskOverflowStorageFactory - Deleting data file org.hibernate.cache.internal.StandardQueryCache.data
+2016-01-13 15:47:24.175 [main] DEBUG net.sf.ehcache.Cache - Initialised cache: org.hibernate.cache.internal.StandardQueryCache
+2016-01-13 15:47:24.176 [main] DEBUG net.sf.ehcache.config.ConfigurationHelper - CacheDecoratorFactory not configured for defaultCache. Skipping for 'org.hibernate.cache.internal.StandardQueryCache'.
+2016-01-13 15:47:25.096 [net.sf.ehcache.CacheManager@28d18df5] DEBUG net.sf.ehcache.util.UpdateChecker - Checking for update...
+2016-01-13 15:47:25.782 [net.sf.ehcache.CacheManager@28d18df5] INFO  net.sf.ehcache.util.UpdateChecker - New update(s) found: 2.4.7 [http://www.terracotta.org/confluence/display/release/Release+Notes+Ehcache+Core+2.4]. Please check http://ehcache.org for the latest version.
+2016-01-13 15:49:30.701 [main] DEBUG net.sf.ehcache.config.ConfigurationFactory - Configuring ehcache from ehcache.xml found in the classpath: file:/home/jufeng/Java/git/jufeng-java/jufeng-framework/mingyuan-model/target/classes/ehcache.xml
+2016-01-13 15:49:30.706 [main] DEBUG net.sf.ehcache.config.ConfigurationFactory - Configuring ehcache from URL: file:/home/jufeng/Java/git/jufeng-java/jufeng-framework/mingyuan-model/target/classes/ehcache.xml
+2016-01-13 15:49:30.711 [main] DEBUG net.sf.ehcache.config.ConfigurationFactory - Configuring ehcache from InputStream
+2016-01-13 15:49:30.735 [main] DEBUG net.sf.ehcache.config.BeanHandler - Ignoring ehcache attribute xmlns:xsi
+2016-01-13 15:49:30.736 [main] DEBUG net.sf.ehcache.config.BeanHandler - Ignoring ehcache attribute xsi:noNamespaceSchemaLocation
+2016-01-13 15:49:30.738 [main] DEBUG net.sf.ehcache.config.DiskStoreConfiguration - Disk Store Path: /tmp
+2016-01-13 15:49:30.806 [main] DEBUG net.sf.ehcache.util.PropertyUtil - propertiesString is null.
+2016-01-13 15:49:30.812 [main] DEBUG net.sf.ehcache.config.ConfigurationHelper - No CacheManagerEventListenerFactory class specified. Skipping...
+2016-01-13 15:49:30.849 [main] DEBUG net.sf.ehcache.Cache - No BootstrapCacheLoaderFactory class specified. Skipping...
+2016-01-13 15:49:30.850 [main] DEBUG net.sf.ehcache.Cache - CacheWriter factory not configured. Skipping...
+2016-01-13 15:49:30.852 [main] DEBUG net.sf.ehcache.config.ConfigurationHelper - No CacheExceptionHandlerFactory class specified. Skipping...
+2016-01-13 15:49:30.885 [main] DEBUG net.sf.ehcache.store.compound.factories.DiskOverflowStorageFactory - Deleting data file org.hibernate.cache.spi.UpdateTimestampsCache.data
+2016-01-13 15:49:30.923 [main] DEBUG net.sf.ehcache.Cache - Initialised cache: org.hibernate.cache.spi.UpdateTimestampsCache
+2016-01-13 15:49:30.924 [main] DEBUG net.sf.ehcache.config.ConfigurationHelper - CacheDecoratorFactory not configured for defaultCache. Skipping for 'org.hibernate.cache.spi.UpdateTimestampsCache'.
+2016-01-13 15:49:30.933 [main] DEBUG net.sf.ehcache.store.compound.factories.DiskOverflowStorageFactory - Deleting data file org.hibernate.cache.internal.StandardQueryCache.data
+2016-01-13 15:49:30.936 [main] DEBUG net.sf.ehcache.Cache - Initialised cache: org.hibernate.cache.internal.StandardQueryCache
+2016-01-13 15:49:30.937 [main] DEBUG net.sf.ehcache.config.ConfigurationHelper - CacheDecoratorFactory not configured for defaultCache. Skipping for 'org.hibernate.cache.internal.StandardQueryCache'.
+2016-01-13 15:49:31.856 [net.sf.ehcache.CacheManager@1d483de4] DEBUG net.sf.ehcache.util.UpdateChecker - Checking for update...
+2016-01-13 15:49:32.556 [net.sf.ehcache.CacheManager@1d483de4] INFO  net.sf.ehcache.util.UpdateChecker - New update(s) found: 2.4.7 [http://www.terracotta.org/confluence/display/release/Release+Notes+Ehcache+Core+2.4]. Please check http://ehcache.org for the latest version.
+2016-01-13 15:52:01.206 [main] DEBUG net.sf.ehcache.config.ConfigurationFactory - Configuring ehcache from ehcache.xml found in the classpath: file:/home/jufeng/Java/git/jufeng-java/jufeng-framework/mingyuan-model/target/classes/ehcache.xml
+2016-01-13 15:52:01.210 [main] DEBUG net.sf.ehcache.config.ConfigurationFactory - Configuring ehcache from URL: file:/home/jufeng/Java/git/jufeng-java/jufeng-framework/mingyuan-model/target/classes/ehcache.xml
+2016-01-13 15:52:01.213 [main] DEBUG net.sf.ehcache.config.ConfigurationFactory - Configuring ehcache from InputStream
+2016-01-13 15:52:01.240 [main] DEBUG net.sf.ehcache.config.BeanHandler - Ignoring ehcache attribute xmlns:xsi
+2016-01-13 15:52:01.241 [main] DEBUG net.sf.ehcache.config.BeanHandler - Ignoring ehcache attribute xsi:noNamespaceSchemaLocation
+2016-01-13 15:52:01.242 [main] DEBUG net.sf.ehcache.config.DiskStoreConfiguration - Disk Store Path: /tmp
+2016-01-13 15:52:01.306 [main] DEBUG net.sf.ehcache.util.PropertyUtil - propertiesString is null.
+2016-01-13 15:52:01.312 [main] DEBUG net.sf.ehcache.config.ConfigurationHelper - No CacheManagerEventListenerFactory class specified. Skipping...
+2016-01-13 15:52:01.355 [main] DEBUG net.sf.ehcache.Cache - No BootstrapCacheLoaderFactory class specified. Skipping...
+2016-01-13 15:52:01.356 [main] DEBUG net.sf.ehcache.Cache - CacheWriter factory not configured. Skipping...
+2016-01-13 15:52:01.358 [main] DEBUG net.sf.ehcache.config.ConfigurationHelper - No CacheExceptionHandlerFactory class specified. Skipping...
+2016-01-13 15:52:01.392 [main] DEBUG net.sf.ehcache.store.compound.factories.DiskOverflowStorageFactory - Deleting data file org.hibernate.cache.spi.UpdateTimestampsCache.data
+2016-01-13 15:52:01.434 [main] DEBUG net.sf.ehcache.Cache - Initialised cache: org.hibernate.cache.spi.UpdateTimestampsCache
+2016-01-13 15:52:01.436 [main] DEBUG net.sf.ehcache.config.ConfigurationHelper - CacheDecoratorFactory not configured for defaultCache. Skipping for 'org.hibernate.cache.spi.UpdateTimestampsCache'.
+2016-01-13 15:52:01.445 [main] DEBUG net.sf.ehcache.store.compound.factories.DiskOverflowStorageFactory - Deleting data file org.hibernate.cache.internal.StandardQueryCache.data
+2016-01-13 15:52:01.447 [main] DEBUG net.sf.ehcache.Cache - Initialised cache: org.hibernate.cache.internal.StandardQueryCache
+2016-01-13 15:52:01.447 [main] DEBUG net.sf.ehcache.config.ConfigurationHelper - CacheDecoratorFactory not configured for defaultCache. Skipping for 'org.hibernate.cache.internal.StandardQueryCache'.
+2016-01-13 15:52:02.362 [net.sf.ehcache.CacheManager@1d483de4] DEBUG net.sf.ehcache.util.UpdateChecker - Checking for update...
+2016-01-13 15:52:02.836 [net.sf.ehcache.CacheManager@1d483de4] INFO  net.sf.ehcache.util.UpdateChecker - New update(s) found: 2.4.7 [http://www.terracotta.org/confluence/display/release/Release+Notes+Ehcache+Core+2.4]. Please check http://ehcache.org for the latest version.
+2016-01-13 15:56:36.205 [main] DEBUG net.sf.ehcache.config.ConfigurationFactory - Configuring ehcache from ehcache.xml found in the classpath: file:/home/jufeng/Java/git/jufeng-java/jufeng-framework/mingyuan-model/target/classes/ehcache.xml
+2016-01-13 15:56:36.253 [main] DEBUG net.sf.ehcache.config.ConfigurationFactory - Configuring ehcache from URL: file:/home/jufeng/Java/git/jufeng-java/jufeng-framework/mingyuan-model/target/classes/ehcache.xml
+2016-01-13 15:56:36.276 [main] DEBUG net.sf.ehcache.config.ConfigurationFactory - Configuring ehcache from InputStream
+2016-01-13 15:56:36.323 [main] DEBUG net.sf.ehcache.config.BeanHandler - Ignoring ehcache attribute xmlns:xsi
+2016-01-13 15:56:36.324 [main] DEBUG net.sf.ehcache.config.BeanHandler - Ignoring ehcache attribute xsi:noNamespaceSchemaLocation
+2016-01-13 15:56:36.326 [main] DEBUG net.sf.ehcache.config.DiskStoreConfiguration - Disk Store Path: /tmp
+2016-01-13 15:56:36.428 [main] DEBUG net.sf.ehcache.util.PropertyUtil - propertiesString is null.
+2016-01-13 15:56:36.434 [main] DEBUG net.sf.ehcache.config.ConfigurationHelper - No CacheManagerEventListenerFactory class specified. Skipping...
+2016-01-13 15:56:36.504 [main] DEBUG net.sf.ehcache.Cache - No BootstrapCacheLoaderFactory class specified. Skipping...
+2016-01-13 15:56:36.505 [main] DEBUG net.sf.ehcache.Cache - CacheWriter factory not configured. Skipping...
+2016-01-13 15:56:36.507 [main] DEBUG net.sf.ehcache.config.ConfigurationHelper - No CacheExceptionHandlerFactory class specified. Skipping...
+2016-01-13 15:56:36.578 [main] DEBUG net.sf.ehcache.store.compound.factories.DiskOverflowStorageFactory - Deleting data file org.hibernate.cache.spi.UpdateTimestampsCache.data
+2016-01-13 15:56:36.620 [main] DEBUG net.sf.ehcache.Cache - Initialised cache: org.hibernate.cache.spi.UpdateTimestampsCache
+2016-01-13 15:56:36.620 [main] DEBUG net.sf.ehcache.config.ConfigurationHelper - CacheDecoratorFactory not configured for defaultCache. Skipping for 'org.hibernate.cache.spi.UpdateTimestampsCache'.
+2016-01-13 15:56:36.629 [main] DEBUG net.sf.ehcache.store.compound.factories.DiskOverflowStorageFactory - Deleting data file org.hibernate.cache.internal.StandardQueryCache.data
+2016-01-13 15:56:36.631 [main] DEBUG net.sf.ehcache.Cache - Initialised cache: org.hibernate.cache.internal.StandardQueryCache
+2016-01-13 15:56:36.631 [main] DEBUG net.sf.ehcache.config.ConfigurationHelper - CacheDecoratorFactory not configured for defaultCache. Skipping for 'org.hibernate.cache.internal.StandardQueryCache'.
+2016-01-13 15:56:37.535 [net.sf.ehcache.CacheManager@1d483de4] DEBUG net.sf.ehcache.util.UpdateChecker - Checking for update...
+2016-01-13 15:56:39.548 [net.sf.ehcache.CacheManager@1d483de4] INFO  net.sf.ehcache.util.UpdateChecker - New update(s) found: 2.4.7 [http://www.terracotta.org/confluence/display/release/Release+Notes+Ehcache+Core+2.4]. Please check http://ehcache.org for the latest version.
+2016-01-13 15:57:44.178 [main] DEBUG net.sf.ehcache.config.ConfigurationFactory - Configuring ehcache from ehcache.xml found in the classpath: file:/home/jufeng/Java/git/jufeng-java/jufeng-framework/mingyuan-model/target/classes/ehcache.xml
+2016-01-13 15:57:44.184 [main] DEBUG net.sf.ehcache.config.ConfigurationFactory - Configuring ehcache from URL: file:/home/jufeng/Java/git/jufeng-java/jufeng-framework/mingyuan-model/target/classes/ehcache.xml
+2016-01-13 15:57:44.187 [main] DEBUG net.sf.ehcache.config.ConfigurationFactory - Configuring ehcache from InputStream
+2016-01-13 15:57:44.217 [main] DEBUG net.sf.ehcache.config.BeanHandler - Ignoring ehcache attribute xmlns:xsi
+2016-01-13 15:57:44.218 [main] DEBUG net.sf.ehcache.config.BeanHandler - Ignoring ehcache attribute xsi:noNamespaceSchemaLocation
+2016-01-13 15:57:44.220 [main] DEBUG net.sf.ehcache.config.DiskStoreConfiguration - Disk Store Path: /tmp
+2016-01-13 15:57:44.292 [main] DEBUG net.sf.ehcache.util.PropertyUtil - propertiesString is null.
+2016-01-13 15:57:44.298 [main] DEBUG net.sf.ehcache.config.ConfigurationHelper - No CacheManagerEventListenerFactory class specified. Skipping...
+2016-01-13 15:57:44.337 [main] DEBUG net.sf.ehcache.Cache - No BootstrapCacheLoaderFactory class specified. Skipping...
+2016-01-13 15:57:44.337 [main] DEBUG net.sf.ehcache.Cache - CacheWriter factory not configured. Skipping...
+2016-01-13 15:57:44.339 [main] DEBUG net.sf.ehcache.config.ConfigurationHelper - No CacheExceptionHandlerFactory class specified. Skipping...
+2016-01-13 15:57:44.372 [main] DEBUG net.sf.ehcache.store.compound.factories.DiskOverflowStorageFactory - Deleting data file org.hibernate.cache.spi.UpdateTimestampsCache.data
+2016-01-13 15:57:44.411 [main] DEBUG net.sf.ehcache.Cache - Initialised cache: org.hibernate.cache.spi.UpdateTimestampsCache
+2016-01-13 15:57:44.412 [main] DEBUG net.sf.ehcache.config.ConfigurationHelper - CacheDecoratorFactory not configured for defaultCache. Skipping for 'org.hibernate.cache.spi.UpdateTimestampsCache'.
+2016-01-13 15:57:44.421 [main] DEBUG net.sf.ehcache.store.compound.factories.DiskOverflowStorageFactory - Deleting data file org.hibernate.cache.internal.StandardQueryCache.data
+2016-01-13 15:57:44.423 [main] DEBUG net.sf.ehcache.Cache - Initialised cache: org.hibernate.cache.internal.StandardQueryCache
+2016-01-13 15:57:44.424 [main] DEBUG net.sf.ehcache.config.ConfigurationHelper - CacheDecoratorFactory not configured for defaultCache. Skipping for 'org.hibernate.cache.internal.StandardQueryCache'.
+2016-01-13 15:57:45.343 [net.sf.ehcache.CacheManager@1d483de4] DEBUG net.sf.ehcache.util.UpdateChecker - Checking for update...
+2016-01-13 15:57:45.886 [net.sf.ehcache.CacheManager@1d483de4] INFO  net.sf.ehcache.util.UpdateChecker - New update(s) found: 2.4.7 [http://www.terracotta.org/confluence/display/release/Release+Notes+Ehcache+Core+2.4]. Please check http://ehcache.org for the latest version.
+2016-01-13 15:58:16.244 [main] DEBUG net.sf.ehcache.config.ConfigurationFactory - Configuring ehcache from ehcache.xml found in the classpath: file:/home/jufeng/Java/git/jufeng-java/jufeng-framework/mingyuan-model/target/classes/ehcache.xml
+2016-01-13 15:58:16.249 [main] DEBUG net.sf.ehcache.config.ConfigurationFactory - Configuring ehcache from URL: file:/home/jufeng/Java/git/jufeng-java/jufeng-framework/mingyuan-model/target/classes/ehcache.xml
+2016-01-13 15:58:16.253 [main] DEBUG net.sf.ehcache.config.ConfigurationFactory - Configuring ehcache from InputStream
+2016-01-13 15:58:16.283 [main] DEBUG net.sf.ehcache.config.BeanHandler - Ignoring ehcache attribute xmlns:xsi
+2016-01-13 15:58:16.284 [main] DEBUG net.sf.ehcache.config.BeanHandler - Ignoring ehcache attribute xsi:noNamespaceSchemaLocation
+2016-01-13 15:58:16.285 [main] DEBUG net.sf.ehcache.config.DiskStoreConfiguration - Disk Store Path: /tmp
+2016-01-13 15:58:16.364 [main] DEBUG net.sf.ehcache.util.PropertyUtil - propertiesString is null.
+2016-01-13 15:58:16.369 [main] DEBUG net.sf.ehcache.config.ConfigurationHelper - No CacheManagerEventListenerFactory class specified. Skipping...
+2016-01-13 15:58:16.411 [main] DEBUG net.sf.ehcache.Cache - No BootstrapCacheLoaderFactory class specified. Skipping...
+2016-01-13 15:58:16.411 [main] DEBUG net.sf.ehcache.Cache - CacheWriter factory not configured. Skipping...
+2016-01-13 15:58:16.414 [main] DEBUG net.sf.ehcache.config.ConfigurationHelper - No CacheExceptionHandlerFactory class specified. Skipping...
+2016-01-13 15:58:16.444 [main] DEBUG net.sf.ehcache.store.compound.factories.DiskOverflowStorageFactory - Deleting data file org.hibernate.cache.spi.UpdateTimestampsCache.data
+2016-01-13 15:58:16.482 [main] DEBUG net.sf.ehcache.Cache - Initialised cache: org.hibernate.cache.spi.UpdateTimestampsCache
+2016-01-13 15:58:16.483 [main] DEBUG net.sf.ehcache.config.ConfigurationHelper - CacheDecoratorFactory not configured for defaultCache. Skipping for 'org.hibernate.cache.spi.UpdateTimestampsCache'.
+2016-01-13 15:58:16.491 [main] DEBUG net.sf.ehcache.store.compound.factories.DiskOverflowStorageFactory - Deleting data file org.hibernate.cache.internal.StandardQueryCache.data
+2016-01-13 15:58:16.497 [main] DEBUG net.sf.ehcache.Cache - Initialised cache: org.hibernate.cache.internal.StandardQueryCache
+2016-01-13 15:58:16.498 [main] DEBUG net.sf.ehcache.config.ConfigurationHelper - CacheDecoratorFactory not configured for defaultCache. Skipping for 'org.hibernate.cache.internal.StandardQueryCache'.
+2016-01-13 15:58:46.475 [main] DEBUG net.sf.ehcache.config.ConfigurationFactory - Configuring ehcache from ehcache.xml found in the classpath: file:/home/jufeng/Java/git/jufeng-java/jufeng-framework/mingyuan-model/target/classes/ehcache.xml
+2016-01-13 15:58:46.480 [main] DEBUG net.sf.ehcache.config.ConfigurationFactory - Configuring ehcache from URL: file:/home/jufeng/Java/git/jufeng-java/jufeng-framework/mingyuan-model/target/classes/ehcache.xml
+2016-01-13 15:58:46.483 [main] DEBUG net.sf.ehcache.config.ConfigurationFactory - Configuring ehcache from InputStream
+2016-01-13 15:58:46.507 [main] DEBUG net.sf.ehcache.config.BeanHandler - Ignoring ehcache attribute xmlns:xsi
+2016-01-13 15:58:46.508 [main] DEBUG net.sf.ehcache.config.BeanHandler - Ignoring ehcache attribute xsi:noNamespaceSchemaLocation
+2016-01-13 15:58:46.510 [main] DEBUG net.sf.ehcache.config.DiskStoreConfiguration - Disk Store Path: /tmp
+2016-01-13 15:58:46.579 [main] DEBUG net.sf.ehcache.util.PropertyUtil - propertiesString is null.
+2016-01-13 15:58:46.584 [main] DEBUG net.sf.ehcache.config.ConfigurationHelper - No CacheManagerEventListenerFactory class specified. Skipping...
+2016-01-13 15:58:46.621 [main] DEBUG net.sf.ehcache.Cache - No BootstrapCacheLoaderFactory class specified. Skipping...
+2016-01-13 15:58:46.622 [main] DEBUG net.sf.ehcache.Cache - CacheWriter factory not configured. Skipping...
+2016-01-13 15:58:46.624 [main] DEBUG net.sf.ehcache.config.ConfigurationHelper - No CacheExceptionHandlerFactory class specified. Skipping...
+2016-01-13 15:58:46.650 [main] DEBUG net.sf.ehcache.store.compound.factories.DiskOverflowStorageFactory - Deleting data file org.hibernate.cache.spi.UpdateTimestampsCache.data
+2016-01-13 15:58:46.693 [main] DEBUG net.sf.ehcache.Cache - Initialised cache: org.hibernate.cache.spi.UpdateTimestampsCache
+2016-01-13 15:58:46.694 [main] DEBUG net.sf.ehcache.config.ConfigurationHelper - CacheDecoratorFactory not configured for defaultCache. Skipping for 'org.hibernate.cache.spi.UpdateTimestampsCache'.
+2016-01-13 15:58:46.703 [main] DEBUG net.sf.ehcache.store.compound.factories.DiskOverflowStorageFactory - Deleting data file org.hibernate.cache.internal.StandardQueryCache.data
+2016-01-13 15:58:46.707 [main] DEBUG net.sf.ehcache.Cache - Initialised cache: org.hibernate.cache.internal.StandardQueryCache
+2016-01-13 15:58:46.708 [main] DEBUG net.sf.ehcache.config.ConfigurationHelper - CacheDecoratorFactory not configured for defaultCache. Skipping for 'org.hibernate.cache.internal.StandardQueryCache'.
+2016-01-13 15:58:47.627 [net.sf.ehcache.CacheManager@1d483de4] DEBUG net.sf.ehcache.util.UpdateChecker - Checking for update...
+2016-01-13 15:58:48.110 [net.sf.ehcache.CacheManager@1d483de4] INFO  net.sf.ehcache.util.UpdateChecker - New update(s) found: 2.4.7 [http://www.terracotta.org/confluence/display/release/Release+Notes+Ehcache+Core+2.4]. Please check http://ehcache.org for the latest version.
+2016-01-13 16:01:21.985 [main] DEBUG net.sf.ehcache.config.ConfigurationFactory - Configuring ehcache from ehcache.xml found in the classpath: file:/home/jufeng/Java/git/jufeng-java/jufeng-framework/mingyuan-model/target/classes/ehcache.xml
+2016-01-13 16:01:21.989 [main] DEBUG net.sf.ehcache.config.ConfigurationFactory - Configuring ehcache from URL: file:/home/jufeng/Java/git/jufeng-java/jufeng-framework/mingyuan-model/target/classes/ehcache.xml
+2016-01-13 16:01:21.992 [main] DEBUG net.sf.ehcache.config.ConfigurationFactory - Configuring ehcache from InputStream
+2016-01-13 16:01:22.018 [main] DEBUG net.sf.ehcache.config.BeanHandler - Ignoring ehcache attribute xmlns:xsi
+2016-01-13 16:01:22.019 [main] DEBUG net.sf.ehcache.config.BeanHandler - Ignoring ehcache attribute xsi:noNamespaceSchemaLocation
+2016-01-13 16:01:22.021 [main] DEBUG net.sf.ehcache.config.DiskStoreConfiguration - Disk Store Path: /tmp
+2016-01-13 16:01:22.100 [main] DEBUG net.sf.ehcache.util.PropertyUtil - propertiesString is null.
+2016-01-13 16:01:22.106 [main] DEBUG net.sf.ehcache.config.ConfigurationHelper - No CacheManagerEventListenerFactory class specified. Skipping...
+2016-01-13 16:01:22.148 [main] DEBUG net.sf.ehcache.Cache - No BootstrapCacheLoaderFactory class specified. Skipping...
+2016-01-13 16:01:22.149 [main] DEBUG net.sf.ehcache.Cache - CacheWriter factory not configured. Skipping...
+2016-01-13 16:01:22.151 [main] DEBUG net.sf.ehcache.config.ConfigurationHelper - No CacheExceptionHandlerFactory class specified. Skipping...
+2016-01-13 16:01:22.185 [main] DEBUG net.sf.ehcache.store.compound.factories.DiskOverflowStorageFactory - Deleting data file org.hibernate.cache.spi.UpdateTimestampsCache.data
+2016-01-13 16:01:22.226 [main] DEBUG net.sf.ehcache.Cache - Initialised cache: org.hibernate.cache.spi.UpdateTimestampsCache
+2016-01-13 16:01:22.227 [main] DEBUG net.sf.ehcache.config.ConfigurationHelper - CacheDecoratorFactory not configured for defaultCache. Skipping for 'org.hibernate.cache.spi.UpdateTimestampsCache'.
+2016-01-13 16:01:22.236 [main] DEBUG net.sf.ehcache.store.compound.factories.DiskOverflowStorageFactory - Deleting data file org.hibernate.cache.internal.StandardQueryCache.data
+2016-01-13 16:01:22.239 [main] DEBUG net.sf.ehcache.Cache - Initialised cache: org.hibernate.cache.internal.StandardQueryCache
+2016-01-13 16:01:22.240 [main] DEBUG net.sf.ehcache.config.ConfigurationHelper - CacheDecoratorFactory not configured for defaultCache. Skipping for 'org.hibernate.cache.internal.StandardQueryCache'.
+2016-01-13 16:01:23.154 [net.sf.ehcache.CacheManager@1d483de4] DEBUG net.sf.ehcache.util.UpdateChecker - Checking for update...
+2016-01-13 16:01:23.809 [net.sf.ehcache.CacheManager@1d483de4] INFO  net.sf.ehcache.util.UpdateChecker - New update(s) found: 2.4.7 [http://www.terracotta.org/confluence/display/release/Release+Notes+Ehcache+Core+2.4]. Please check http://ehcache.org for the latest version.
+2016-01-13 16:02:41.107 [main] DEBUG net.sf.ehcache.config.ConfigurationFactory - Configuring ehcache from ehcache.xml found in the classpath: file:/home/jufeng/Java/git/jufeng-java/jufeng-framework/mingyuan-model/target/classes/ehcache.xml
+2016-01-13 16:02:41.111 [main] DEBUG net.sf.ehcache.config.ConfigurationFactory - Configuring ehcache from URL: file:/home/jufeng/Java/git/jufeng-java/jufeng-framework/mingyuan-model/target/classes/ehcache.xml
+2016-01-13 16:02:41.114 [main] DEBUG net.sf.ehcache.config.ConfigurationFactory - Configuring ehcache from InputStream
+2016-01-13 16:02:41.138 [main] DEBUG net.sf.ehcache.config.BeanHandler - Ignoring ehcache attribute xmlns:xsi
+2016-01-13 16:02:41.139 [main] DEBUG net.sf.ehcache.config.BeanHandler - Ignoring ehcache attribute xsi:noNamespaceSchemaLocation
+2016-01-13 16:02:41.141 [main] DEBUG net.sf.ehcache.config.DiskStoreConfiguration - Disk Store Path: /tmp
+2016-01-13 16:02:41.207 [main] DEBUG net.sf.ehcache.util.PropertyUtil - propertiesString is null.
+2016-01-13 16:02:41.212 [main] DEBUG net.sf.ehcache.config.ConfigurationHelper - No CacheManagerEventListenerFactory class specified. Skipping...
+2016-01-13 16:02:41.250 [main] DEBUG net.sf.ehcache.Cache - No BootstrapCacheLoaderFactory class specified. Skipping...
+2016-01-13 16:02:41.251 [main] DEBUG net.sf.ehcache.Cache - CacheWriter factory not configured. Skipping...
+2016-01-13 16:02:41.253 [main] DEBUG net.sf.ehcache.config.ConfigurationHelper - No CacheExceptionHandlerFactory class specified. Skipping...
+2016-01-13 16:02:41.279 [main] DEBUG net.sf.ehcache.store.compound.factories.DiskOverflowStorageFactory - Deleting data file org.hibernate.cache.spi.UpdateTimestampsCache.data
+2016-01-13 16:02:41.309 [main] DEBUG net.sf.ehcache.Cache - Initialised cache: org.hibernate.cache.spi.UpdateTimestampsCache
+2016-01-13 16:02:41.310 [main] DEBUG net.sf.ehcache.config.ConfigurationHelper - CacheDecoratorFactory not configured for defaultCache. Skipping for 'org.hibernate.cache.spi.UpdateTimestampsCache'.
+2016-01-13 16:02:41.319 [main] DEBUG net.sf.ehcache.store.compound.factories.DiskOverflowStorageFactory - Deleting data file org.hibernate.cache.internal.StandardQueryCache.data
+2016-01-13 16:02:41.321 [main] DEBUG net.sf.ehcache.Cache - Initialised cache: org.hibernate.cache.internal.StandardQueryCache
+2016-01-13 16:02:41.322 [main] DEBUG net.sf.ehcache.config.ConfigurationHelper - CacheDecoratorFactory not configured for defaultCache. Skipping for 'org.hibernate.cache.internal.StandardQueryCache'.
+2016-01-13 16:02:42.256 [net.sf.ehcache.CacheManager@1d483de4] DEBUG net.sf.ehcache.util.UpdateChecker - Checking for update...
+2016-01-13 16:02:43.269 [net.sf.ehcache.CacheManager@1d483de4] INFO  net.sf.ehcache.util.UpdateChecker - New update(s) found: 2.4.7 [http://www.terracotta.org/confluence/display/release/Release+Notes+Ehcache+Core+2.4]. Please check http://ehcache.org for the latest version.
+2016-01-13 16:02:56.489 [main] DEBUG net.sf.ehcache.config.ConfigurationFactory - Configuring ehcache from ehcache.xml found in the classpath: file:/home/jufeng/Java/git/jufeng-java/jufeng-framework/mingyuan-model/target/classes/ehcache.xml
+2016-01-13 16:02:56.493 [main] DEBUG net.sf.ehcache.config.ConfigurationFactory - Configuring ehcache from URL: file:/home/jufeng/Java/git/jufeng-java/jufeng-framework/mingyuan-model/target/classes/ehcache.xml
+2016-01-13 16:02:56.497 [main] DEBUG net.sf.ehcache.config.ConfigurationFactory - Configuring ehcache from InputStream
+2016-01-13 16:02:56.547 [main] DEBUG net.sf.ehcache.config.BeanHandler - Ignoring ehcache attribute xmlns:xsi
+2016-01-13 16:02:56.548 [main] DEBUG net.sf.ehcache.config.BeanHandler - Ignoring ehcache attribute xsi:noNamespaceSchemaLocation
+2016-01-13 16:02:56.549 [main] DEBUG net.sf.ehcache.config.DiskStoreConfiguration - Disk Store Path: /tmp
+2016-01-13 16:02:56.643 [main] DEBUG net.sf.ehcache.util.PropertyUtil - propertiesString is null.
+2016-01-13 16:02:56.648 [main] DEBUG net.sf.ehcache.config.ConfigurationHelper - No CacheManagerEventListenerFactory class specified. Skipping...
+2016-01-13 16:02:56.712 [main] DEBUG net.sf.ehcache.Cache - No BootstrapCacheLoaderFactory class specified. Skipping...
+2016-01-13 16:02:56.712 [main] DEBUG net.sf.ehcache.Cache - CacheWriter factory not configured. Skipping...
+2016-01-13 16:02:56.715 [main] DEBUG net.sf.ehcache.config.ConfigurationHelper - No CacheExceptionHandlerFactory class specified. Skipping...
+2016-01-13 16:02:56.763 [main] DEBUG net.sf.ehcache.store.compound.factories.DiskOverflowStorageFactory - Deleting data file org.hibernate.cache.spi.UpdateTimestampsCache.data
+2016-01-13 16:02:56.792 [main] DEBUG net.sf.ehcache.Cache - Initialised cache: org.hibernate.cache.spi.UpdateTimestampsCache
+2016-01-13 16:02:56.793 [main] DEBUG net.sf.ehcache.config.ConfigurationHelper - CacheDecoratorFactory not configured for defaultCache. Skipping for 'org.hibernate.cache.spi.UpdateTimestampsCache'.
+2016-01-13 16:02:56.802 [main] DEBUG net.sf.ehcache.store.compound.factories.DiskOverflowStorageFactory - Deleting data file org.hibernate.cache.internal.StandardQueryCache.data
+2016-01-13 16:02:56.805 [main] DEBUG net.sf.ehcache.Cache - Initialised cache: org.hibernate.cache.internal.StandardQueryCache
+2016-01-13 16:02:56.805 [main] DEBUG net.sf.ehcache.config.ConfigurationHelper - CacheDecoratorFactory not configured for defaultCache. Skipping for 'org.hibernate.cache.internal.StandardQueryCache'.
+2016-01-13 16:02:57.719 [net.sf.ehcache.CacheManager@74a6f9c1] DEBUG net.sf.ehcache.util.UpdateChecker - Checking for update...
+2016-01-13 16:02:58.307 [net.sf.ehcache.CacheManager@74a6f9c1] INFO  net.sf.ehcache.util.UpdateChecker - New update(s) found: 2.4.7 [http://www.terracotta.org/confluence/display/release/Release+Notes+Ehcache+Core+2.4]. Please check http://ehcache.org for the latest version.
+2016-01-13 16:04:27.854 [main] DEBUG net.sf.ehcache.config.ConfigurationFactory - Configuring ehcache from ehcache.xml found in the classpath: file:/home/jufeng/Java/git/jufeng-java/jufeng-framework/mingyuan-model/target/classes/ehcache.xml
+2016-01-13 16:04:27.858 [main] DEBUG net.sf.ehcache.config.ConfigurationFactory - Configuring ehcache from URL: file:/home/jufeng/Java/git/jufeng-java/jufeng-framework/mingyuan-model/target/classes/ehcache.xml
+2016-01-13 16:04:27.875 [main] DEBUG net.sf.ehcache.config.ConfigurationFactory - Configuring ehcache from InputStream
+2016-01-13 16:04:27.899 [main] DEBUG net.sf.ehcache.config.BeanHandler - Ignoring ehcache attribute xmlns:xsi
+2016-01-13 16:04:27.899 [main] DEBUG net.sf.ehcache.config.BeanHandler - Ignoring ehcache attribute xsi:noNamespaceSchemaLocation
+2016-01-13 16:04:27.900 [main] DEBUG net.sf.ehcache.config.DiskStoreConfiguration - Disk Store Path: /tmp
+2016-01-13 16:04:27.960 [main] DEBUG net.sf.ehcache.util.PropertyUtil - propertiesString is null.
+2016-01-13 16:04:27.964 [main] DEBUG net.sf.ehcache.config.ConfigurationHelper - No CacheManagerEventListenerFactory class specified. Skipping...
+2016-01-13 16:04:28.002 [main] DEBUG net.sf.ehcache.Cache - No BootstrapCacheLoaderFactory class specified. Skipping...
+2016-01-13 16:04:28.003 [main] DEBUG net.sf.ehcache.Cache - CacheWriter factory not configured. Skipping...
+2016-01-13 16:04:28.005 [main] DEBUG net.sf.ehcache.config.ConfigurationHelper - No CacheExceptionHandlerFactory class specified. Skipping...
+2016-01-13 16:04:28.033 [main] DEBUG net.sf.ehcache.store.compound.factories.DiskOverflowStorageFactory - Deleting data file org.hibernate.cache.spi.UpdateTimestampsCache.data
+2016-01-13 16:04:28.061 [main] DEBUG net.sf.ehcache.Cache - Initialised cache: org.hibernate.cache.spi.UpdateTimestampsCache
+2016-01-13 16:04:28.061 [main] DEBUG net.sf.ehcache.config.ConfigurationHelper - CacheDecoratorFactory not configured for defaultCache. Skipping for 'org.hibernate.cache.spi.UpdateTimestampsCache'.
+2016-01-13 16:04:28.068 [main] DEBUG net.sf.ehcache.store.compound.factories.DiskOverflowStorageFactory - Deleting data file org.hibernate.cache.internal.StandardQueryCache.data
+2016-01-13 16:04:28.070 [main] DEBUG net.sf.ehcache.Cache - Initialised cache: org.hibernate.cache.internal.StandardQueryCache
+2016-01-13 16:04:28.070 [main] DEBUG net.sf.ehcache.config.ConfigurationHelper - CacheDecoratorFactory not configured for defaultCache. Skipping for 'org.hibernate.cache.internal.StandardQueryCache'.
+2016-01-13 16:05:04.203 [main] DEBUG net.sf.ehcache.config.ConfigurationFactory - Configuring ehcache from ehcache.xml found in the classpath: file:/home/jufeng/Java/git/jufeng-java/jufeng-framework/mingyuan-model/target/classes/ehcache.xml
+2016-01-13 16:05:04.206 [main] DEBUG net.sf.ehcache.config.ConfigurationFactory - Configuring ehcache from URL: file:/home/jufeng/Java/git/jufeng-java/jufeng-framework/mingyuan-model/target/classes/ehcache.xml
+2016-01-13 16:05:04.209 [main] DEBUG net.sf.ehcache.config.ConfigurationFactory - Configuring ehcache from InputStream
+2016-01-13 16:05:04.233 [main] DEBUG net.sf.ehcache.config.BeanHandler - Ignoring ehcache attribute xmlns:xsi
+2016-01-13 16:05:04.233 [main] DEBUG net.sf.ehcache.config.BeanHandler - Ignoring ehcache attribute xsi:noNamespaceSchemaLocation
+2016-01-13 16:05:04.235 [main] DEBUG net.sf.ehcache.config.DiskStoreConfiguration - Disk Store Path: /tmp
+2016-01-13 16:05:04.309 [main] DEBUG net.sf.ehcache.util.PropertyUtil - propertiesString is null.
+2016-01-13 16:05:04.313 [main] DEBUG net.sf.ehcache.config.ConfigurationHelper - No CacheManagerEventListenerFactory class specified. Skipping...
+2016-01-13 16:05:04.350 [main] DEBUG net.sf.ehcache.Cache - No BootstrapCacheLoaderFactory class specified. Skipping...
+2016-01-13 16:05:04.351 [main] DEBUG net.sf.ehcache.Cache - CacheWriter factory not configured. Skipping...
+2016-01-13 16:05:04.353 [main] DEBUG net.sf.ehcache.config.ConfigurationHelper - No CacheExceptionHandlerFactory class specified. Skipping...
+2016-01-13 16:05:04.377 [main] DEBUG net.sf.ehcache.store.compound.factories.DiskOverflowStorageFactory - Deleting data file org.hibernate.cache.spi.UpdateTimestampsCache.data
+2016-01-13 16:05:04.405 [main] DEBUG net.sf.ehcache.Cache - Initialised cache: org.hibernate.cache.spi.UpdateTimestampsCache
+2016-01-13 16:05:04.405 [main] DEBUG net.sf.ehcache.config.ConfigurationHelper - CacheDecoratorFactory not configured for defaultCache. Skipping for 'org.hibernate.cache.spi.UpdateTimestampsCache'.
+2016-01-13 16:05:04.412 [main] DEBUG net.sf.ehcache.store.compound.factories.DiskOverflowStorageFactory - Deleting data file org.hibernate.cache.internal.StandardQueryCache.data
+2016-01-13 16:05:04.415 [main] DEBUG net.sf.ehcache.Cache - Initialised cache: org.hibernate.cache.internal.StandardQueryCache
+2016-01-13 16:05:04.415 [main] DEBUG net.sf.ehcache.config.ConfigurationHelper - CacheDecoratorFactory not configured for defaultCache. Skipping for 'org.hibernate.cache.internal.StandardQueryCache'.
+2016-01-13 16:05:05.244 [main] DEBUG co.jufeng.dao.hibernate.dao.impl.HibernateAccessor - CriteriaImpl(co.jufeng.model.mingyuan.Advertisement:JF_[][])
+2016-01-13 16:05:05.356 [net.sf.ehcache.CacheManager@74a6f9c1] DEBUG net.sf.ehcache.util.UpdateChecker - Checking for update...

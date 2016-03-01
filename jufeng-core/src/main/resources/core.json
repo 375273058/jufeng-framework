@@ -1,0 +1,29 @@
+{
+    "isSuccess": true,
+    "code": 200,
+    "description": "",
+    "data": {
+        "id": 16,
+        "vin": "粤A12345",
+        "drivingLicensePicUrl": "http://test.wstwl.cn:1102/drivingLicense/2015/06/16/1434425099374.jpg",
+        "carFrontPicUrl": "http://test.wstwl.cn:1102/carFront/2015/06/16/1434425121563.jpg",
+        "carLengthId": 48,
+        "carModelId": 3,
+        "userId": 95,
+        "carPhone": "13543245673",
+        "carLoadId": 33,
+        "updateTime": "2015-07-27 16:48:18.0",
+        "carStatusId": 2,
+        "positionCode": "440100",
+        "positionName": "广东省广州市南沙区S358(进港大道)",
+        "positionTime": "2015-07-16 16:53:32.0",
+        "oftenCityCodes": "140800",
+        "oftenCityNames": "山西省运城市",
+        "positionLongitude": 0,
+        "positionLatitude": 0,
+        "carStatusName": "满载",
+        "carModelName": "高低板车",
+        "carLengthName": "8.2",
+        "carLoadName": "33.0"
+    }
+}

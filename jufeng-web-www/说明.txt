@@ -1,0 +1,14 @@
+1 创建动态的web工程。
+2 新建index.jsp到WebContent目录下
+3 配置web.xml.可以直接参考struts2的下载包中的apps目录中的struts2-blank.war中的配置。
+4 去掉struts.xml中多余的配置
+      加入<constant name="struts.action.extension" value="action"></constant>
+  表示匹配/*.action的请求
+  struts.xml放在src目录下(classpath中)
+5 编写TestAction他有一个方法convention返回的字符串为"convetion"
+  TestAction放在actions包下面，这是默认的规则。
+6 编写convetion.jsp。
+  convetion.jsp放在WEB-INF/content/下面，这是默认的规则。
+
+启动项目后访问http://localhost:8080/future/test!convention.action后
+将调用到actions.TestAction的convention方法，返回的是"convetion"，所以自动匹配到content/convetion.jsp文件。
